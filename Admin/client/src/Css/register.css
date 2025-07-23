@@ -1,0 +1,75 @@
+.SignIn_newSignup-Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .SignIn_newRegister-SignUp {
+    width: 400px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .SignIn_newRegister-Color1 {
+    background-color: #3f51b5;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .SignIn_new_SignUp-heading {
+    color: #fff;
+    margin: 0;
+  }
+  
+  .SignIn_newRegister-Color2 {
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  .SignIn_newSignIn-Contents {
+    padding: 20px;
+  }
+  
+  .SignIn_newRegister-inputs-container {
+    margin-bottom: 20px;
+  }
+  
+  .SignIn_newRegister-input,
+  .SignIn_newRegister-select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .SignIn_signin-btn1 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .SignIn_newRegister-SignupBtn {
+    background-color: #3f51b5;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .SignIn_newRegister-Color3 {
+    background-color: #f5f5f5;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .SignIn_success-msg,
+  .SignIn_error-msg {
+    color: #3f51b5;
+    margin: 0;
+    padding: 10px;
+  }
+  

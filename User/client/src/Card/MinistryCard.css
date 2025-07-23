@@ -1,0 +1,35 @@
+.Ministry-card {
+    position: absolute;
+    width: 10rem;
+    height: 10rem;
+    background-color: rgb(107, 157, 213);
+    border: black;
+    border-radius: 5px;
+    margin-left: 31rem;
+    margin-top: 4rem;
+    
+  }
+
+  .Ministry-card :hover{
+    color: red;
+  } 
+
+  .Ministry-card_h3{
+     position: absolute;
+     top: 5rem;
+     left: 1rem;
+     color: lightblue;
+     font-family: Akshar;
+  }
+
+  .Ministry-Background_Image {
+    position: absolute;
+    background-image: url('../Img/Ministry.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    width: 2rem;
+    height: 2rem;
+    left: 0.7rem;
+    top: 1.5rem;
+}

@@ -1,0 +1,627 @@
+.Seal_Image {
+  background-image: url('../Img/signature.jpg');
+  width: 200px;
+  height: 150px;
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  margin-top: 4rem;
+  margin-left: 10rem;
+  /* border: 1px solid black;  */
+  border-radius: 10px; 
+}
+
+.Sign_Image{
+  position: absolute;
+  background-image: url('../Img/seal.jpg');
+  width: 15rem;
+  height: 150px;
+  margin-left:40rem;
+  margin-top:-9.5rem;
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  /* border: 1px solid black;  */
+  border-radius: 10px; 
+}
+
+.download-container{
+  position: absolute;
+  width: 84rem;
+  top:-1rem;
+  min-height: 90rem;
+  margin-left: 10rem;
+}
+
+.a4_sheet{
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+}
+.download_buttondeath{
+  height: 3rem;
+  width: 5rem;
+  margin-top: 1rem;
+  margin-left:20rem;
+}
+
+.download_buttonmarraiage{
+  position: absolute;
+  height: 3rem;
+  width: 5rem;
+  margin-top: 3rem;
+  margin-left:-1rem;
+}
+
+.download_buttonbap{
+  position: absolute;
+  height: 3rem;
+  width: 5rem;
+  margin-top: 95rem;
+  margin-left:-79rem;
+}
+
+.download_button:hover{
+  background-color: lightblue
+}
+
+.baptism_certificate_box{
+  position: absolute;
+ width: 100%;
+ min-height: 200vh;
+ overflow: hidden;
+ z-index: 1; 
+ color: #111112;
+ /* background-color: pink; */
+}
+.baptismcertifiace_container{
+  position: absolute;
+  left: 0rem;
+  top:0rem;
+  width: 100%;
+border-color: rgb(255, 255, 255);
+border: 1rem solid;
+height: 102%;
+color: #111112;
+/* background-color: rgb(247, 238, 239); */
+}
+
+.baptism_card{
+  position: absolute;
+ border: rgb(219, 30, 30);
+  /* background-color: rgb(255, 255, 255); */
+  color: #111112;
+width: 100%;
+  height: 98%;
+  left:0rem;
+  top:0rem;
+}
+.print__button{
+  position: absolute;
+  top:106rem;
+  left:60rem;
+  width: 15rem;
+  height: 3rem;
+  font-size: 20px;
+  border-radius:5px;
+  cursor: pointer;
+  color: #0c0c0c;
+  text-transform: uppercase;
+  background-color: rgb(227, 211, 214);
+}
+.baptism_certificate_data{
+  position: relative;
+  display: block;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+ 
+ border-bottom: dotted;
+left:19rem;
+text-transform: uppercase;
+padding-inline-start: 1rem;
+top:0rem;
+padding-right: 13px;
+font-size: 25px;
+  width:45rem;
+  color: #111112;
+  /* background-color: rgb(247, 238, 239); */
+}
+.baptism_certificate_details{
+  position: relative;
+ top:2rem;
+ left: 3rem;
+ font-size: 26px;
+ color: #111112;
+ font-style: italic;
+ font-family:'Times New Roman';
+
+}
+.baptism_cert_heading{
+  position: relative;
+  top: 0rem;
+  left: 15rem;
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.baptism_cert_bapt{
+  position: relative;
+  top: 0rem;
+  left: 23rem;
+  font-size: 35px;
+  font-family: 'Times New Roman', Times, serif; 
+}
+/* .detalis{
+  position: absolute;
+  display: inline;
+  left:18rem;
+  font-size: 25px;
+
+} */
+.baptism_overall{
+  position: relative;
+  left:6rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  font-style: italic;
+  top:1rem; 
+}
+.baptism_seal{
+  position: relative;
+  top: 10rem;
+  left:14.5rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  font-style: italic;
+
+}
+.baptism_sign{
+  position: relative;
+  top: 6rem;
+  left:38rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  font-style: italic;
+bottom: 9rem;    
+}
+.baptismseal{
+  position: relative;
+  color: #4b77d0;
+  top:10rem;
+  left:11rem;
+  height: 8rem;
+}
+.priest_sign{
+  position: relative;
+bottom: 12rem;
+  left:40rem;
+  color: #4b77d0;
+  width: 25rem;
+height:70px;
+}
+.baptism_box_to_move{
+  position: relative;
+  left: 4rem;
+
+}
+/* Add this rule to control the print layout */
+@media print {
+  body {
+    zoom: 75%; /* You can adjust the zoom level for the print layout */
+  }
+  .print__button {
+    display: none; /* Hide the print button on the printed page */
+  }
+}
+
+
+.signuploadforcertify{
+  position: absolute;
+  width: 8rem;
+  height: 8rem;
+  margin-top: -2rem;
+  margin-left: 12rem;
+}
+
+/* popup.css */
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 400px;
+}
+
+.modal-heading {
+  margin-bottom: 10px;
+}
+
+.modal-input {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.modal-button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  background: #007bff;
+  color: #fff6f6;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.modal-button.cancel-btn {
+  background: #f00;
+}
+
+
+.sealuploadforcertify{
+  position: absolute;
+  width: 8rem;
+  height: 8rem;
+  margin-top: -2rem;
+  margin-left: 43rem;
+}
+
+.print__button_save{
+  position: absolute;
+  top:106rem;
+  left:40rem;
+  width: 15rem;
+  height: 3rem;
+  border-radius:5px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.modal-heading{
+  color:black;
+  font-family:Akshar;
+  
+}
+
+.modal-input{
+  font-family:Akshar;
+  width:20rem;
+  height: 2rem;
+  border-radius:0.5rem;
+  font-size: 1.5rem
+}
+
+.baptism_seal{
+  margin-top: -9rem;
+}
+
+.baptism_sign{
+  margin-top: 1rem;
+}
+.death-Container{
+  position: relative;
+  width: 100%;
+  min-height: 80rem;
+  /* background-color: rgb(255, 255, 255); */
+  overflow: hidden;
+  z-index: 1;
+}
+
+.death-box{
+
+position: relative;
+  border: 1rem solid;
+  border-radius: 0.2rem;
+  width: 97%;
+  min-height: 68.7rem;
+  margin-top: 0rem;
+  /* margin-left: 22rem; */
+  /* background-color: rgb(255, 255, 255); */
+}
+
+.death-heading{
+  position: relative;
+  font-size: 50px;
+  font-family:Georgia, 'Times New Roman', Times, serif ;
+ font-style: italic;
+  margin-left: 10rem;
+  margin-top: 2rem;
+  /* text-decoration: underline; */
+}
+
+.death-sub{
+
+  font-family: Akshar;
+  font-size: 1.5rem;
+  margin-left:6rem;
+  margin-top: 1rem;
+}
+.death-sub2{
+  font-family: Akshar;
+  font-size: 1.5rem;
+  margin-left:9rem;
+  margin-top: 1rem;
+}
+.death-sub3{
+  position: absolute;
+  font-family: Akshar;
+  font-size: 1.5rem;
+  margin-left:20rem;
+top: 23.5rem;
+}
+.death-sub4{
+  position: absolute;
+  font-family: Akshar;
+  font-size: 1.5rem;
+  margin-left:13rem;
+top: 28rem;
+}
+.death_sub5{
+  position: absolute;
+  font-family: Akshar;
+  font-size: 1.5rem;
+  margin-left:3rem;
+top: 35rem;
+}
+.death_sub6{
+  position: absolute;
+  font-family: Akshar;
+  font-size: 1.5rem;
+  margin-left:7rem;
+top: 38.5rem;
+}
+.death_sub7{
+  position: absolute;
+  font-family: Akshar;
+  font-size: 1.5rem;
+  margin-left:2rem;
+top: 44.5rem;
+}
+.death_sub8{
+  position: absolute;
+  font-family: Akshar;
+  font-size: 1.5rem;
+  margin-left:43rem;
+top: 44.5rem;
+}
+.death_sub9{
+  position: absolute;
+  font-family: Akshar;
+  font-size: 1.5rem;
+  margin-left:9rem;
+top: 48.5rem;
+}
+.death_seal{
+  position: absolute;
+  font-family: Akshar;
+  font-size: 1.5rem;
+  margin-left:12rem;
+top: 62.5rem;
+}
+.death_sign{
+  position: absolute;
+  font-family: Akshar;
+  font-size: 1.5rem;
+  margin-left:38rem;
+top: 62.5rem;
+}
+
+.death_input1{
+  position: relative;
+  display: block;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: line;
+  left:2rem;
+  top:1rem;
+  padding-right: 15px;
+  font-size: 20px;
+  width:16rem;
+ 
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 25px;
+}
+.death_baptismname{
+  position: absolute;
+  display: block;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: line;
+  left:30rem;
+  top:23rem;
+  padding-right: 15px;
+  font-size: 20px;
+  width:16rem;
+
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 25px;
+}
+.death_housename{
+  position: absolute;
+  display: block;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: line;
+  left:23rem;
+  top:27.3rem;
+  padding-right: 15px;
+  font-size: 20px;
+  width:18rem;
+
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 25px;
+}
+
+.death_date{
+  position: absolute;
+  display: block;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: line;
+  left:26rem;
+  top:34.5rem;
+  padding-right: 15px;
+  font-size: 20px;
+  width:18rem;
+
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 25px;
+}
+.death_reason{
+  position: absolute;
+  display: block;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: line;
+  left:18rem;
+  top:38rem;
+  padding-right: 15px;
+  font-size: 20px;
+  width:25rem;
+
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 25px;
+}
+.death_church{
+  position: absolute;
+  display: block;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: line;
+  left:16rem;
+  top:44rem;
+  padding-right: 15px;
+  font-size: 20px;
+  width:25rem;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 25px;
+}
+
+.death_burial{
+  position: absolute;
+  display: block;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: line;
+  left:16rem;
+  top:48rem;
+  padding-right: 15px;
+  font-size: 20px;
+  width:25rem;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 25px;
+}
+
+.death-image {
+  /* position: absolute; */
+  /* background-image: url('../Images/Cross.png'); */
+  width: 10rem;
+  height: 10rem;
+  margin: 0 auto; 
+  margin-top: 1rem; 
+  z-index: -1;
+  background-size: cover;
+
+}
+.death_co_position{
+width: 120vh;
+
+position: relative;
+  left: 20rem;
+  /* background-color: aqua; */
+}
+
+.Seal_Image00 {
+  background-image: url('../Img/signature.jpg');
+  width: 200px;
+  height: 150px;
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  margin-top: -10rem;
+  margin-left: -4rem;
+  /* border: 1px solid black;  */
+  border-radius: 10px; 
+}
+
+.Sign_Image00{
+  position: absolute;
+  background-image: url('../Img/seal.jpg');
+  width: 15rem;
+  height: 150px;
+  margin-left:18rem;
+  margin-top:-7rem;
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  /* border: 1px solid black;  */
+  border-radius: 10px; 
+}
+
+.Seal_Image33 {
+  background-image: url('../Img/signature.jpg');
+  width: 200px;
+  height: 150px;
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  margin-top: 1rem;
+  margin-left: -0rem;
+  /* border: 1px solid black;  */
+  border-radius: 10px; 
+}
+
+.Sign_Image33{
+  position: absolute;
+  background-image: url('../Img/seal.jpg');
+  width: 15rem;
+  height: 150px;
+  margin-left:18rem;
+  margin-top:-7rem;
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  /* border: 1px solid black;  */
+  border-radius: 10px; 
+}
+
+.revDetail2f{position: absolute;
+ margin-left: 21rem;
+ margin-top: 1rem;
+}
+
+.revDetail3g{
+  margin-left: 4rem;
+}

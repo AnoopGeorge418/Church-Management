@@ -1,0 +1,56 @@
+/* Content */
+
+.Registries-content{
+    position: relative;
+    top: 3rem;
+    right: 1rem;
+    background: #93d8f6;
+
+}
+
+.Registries-content .h1-heading{
+    position: absolute;
+    top: 5rem;
+    left: 34rem;
+    text-transform: uppercase;
+    font-family: cursive;font-family: 'Playfair Display', serif;
+
+}
+
+.Registries-content .Registries-btn1{
+    position: absolute;
+    top: 10rem;
+    left: 37rem;
+    text-transform: uppercase;
+    border-radius: 2rem;
+    height: 2rem;
+    width: 10rem;
+    cursor: pointer;
+    
+}
+
+.Registries-content .Registries-btn1:hover{
+    background: rgb(246, 244, 244);
+    border: 3px solid rgb(122, 209, 246);
+    box-shadow: 0 0 5px 1px #93d8f6;
+    
+}
+
+.Registries-content .Registries-btn2{
+    position: absolute;
+    top: 13rem;
+    left: 37rem;
+    text-transform: uppercase;
+    border-radius: 2rem;
+    height: 2rem;
+    width: 10rem;
+    cursor: pointer;
+
+}
+
+.Registries-content .Registries-btn2:hover{
+    background: rgb(246, 244, 244);
+    border: 3px solid rgb(122, 209, 246);
+    box-shadow: 0 0 5px 1px #93d8f6;
+
+}

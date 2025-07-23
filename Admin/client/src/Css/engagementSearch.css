@@ -1,0 +1,116 @@
+.engagement_serach_box{
+    position: absolute;
+    display: flex;
+    /* background-color: rgb(0, 101, 112); */
+/* width: 100%; */
+height: 100%;
+
+   
+}
+
+.engagement_serach{
+    position: absolute;
+    display: fixed;
+    /* background-color: rgb(0, 101, 112); */
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+
+  padding: 7.5rem;
+width: 160vh;
+height: auto;
+}
+
+.engagement_searchinput{
+    padding: 10px;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+    width: 300px;
+    margin-right: 10px;
+    font-family: Akshar;
+    border-color: rgb(67, 67, 221);
+    /* background-color: rgb(161, 174, 170); */
+}
+
+.engagement_searchbutton{
+    padding: 12px 20px;
+    /* background-color: #3459c8;
+    color: white; */
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: Akshar;
+}
+
+.engagement_box{
+   
+    border: 3px solid #3c12e3;
+    top:15rem;
+ left: 3rem;
+    border-radius: 4px;
+    padding: 7px;
+    grid-row-start: 3rem;
+    font-family: Akshar;
+}
+
+.engagem_peson_realname{
+    font-weight: bold;
+    font-style: italic;
+    /* color: rgb(253, 223, 27); */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.enga_search-viewDetails{
+    margin-left: 30rem;
+    color: rgb(251, 0, 0);
+    text-decoration: none;
+    font-family: Akshar;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.engagem_peson_baptiname{
+    position: relative;
+    font-weight: bold;
+  left:3rem;
+    /* color: rgb(245, 198, 243); */
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+}
+
+.engagem_peson_familyname{
+    position: relative;
+    font-weight: bold;
+  left:3rem;
+    /* color: rgb(245, 198, 243); */
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+}
+
+.eng_search-editDetails{
+    margin-left: 5.5rem;
+    color: rgb(251, 0, 0);
+    text-decoration: none;
+    font-family: Akshar;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.engagement_listbar{
+   position: relative;
+    margin-top: 2rem;
+ 
+}
+.engagement_box{
+    margin-top: 1rem;
+
+}
+ .loading-spinner {
+    width: 20px;
+    height: 20px;
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #007bff;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+  }

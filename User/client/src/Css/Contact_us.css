@@ -1,0 +1,117 @@
+.Contact_Us-Content{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.Contact_Us_Image {
+    position: absolute;
+    background-image: url('../Img/Contact_Us.jpeg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    width: 40rem;
+    height: 35rem;
+    left: 6rem;
+    top: 10rem;
+}
+
+.Contact_Us-Heading{
+    position: absolute;
+    top: 10rem;
+    left: 50rem;
+    font-size: 5rem;
+    font-family: Akshar;
+    font-weight: 2rem;
+    color: black;
+    text-decoration: underline 3px;
+}
+
+.Contact-intro{
+    position: absolute;
+    top: 17rem;
+    left: 50rem;
+    font-family: Akshar;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: bold;
+}
+
+.Contact-Follow{
+    font-family: Akshar;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: bold;
+    position: absolute;
+    top: 30rem;
+    left: 93rem;
+    width: 10rem;
+    transform: rotate(90deg);
+}
+
+.Contact-Call{
+    position: absolute;
+    background-image: url('../Img/Contact-Call.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    width: 3rem;
+    height: 3rem;
+    left: 50rem;
+    top: 30rem; 
+    border-radius: 1rem;
+}
+
+.Contact-Email{
+    position: absolute;
+    background-image: url('../Img/Contact-Email.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    width: 3rem;
+    height: 3rem;
+    left: 57rem;
+    top: 30rem;
+    border-radius: 1rem;
+}
+
+.Contact-Map{
+    position: absolute;
+    background-image: url('../Img/Contact-Map.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    width: 3rem;
+    height: 3rem;
+    left: 64rem;
+    top: 30rem;
+    border-radius: 1rem;
+}
+
+.Contact-FB{
+    position: absolute;
+    background-image: url('../Img/Contact-FB.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    width: 3rem;
+    height: 3rem;
+    left: 10rem;
+    top: 0rem;
+    border-radius: 1rem;
+    transform: rotate(270deg); 
+}
+
+ .Contact-YT{
+    position: absolute;
+    background-image: url('../Img/Contact-YT.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    width: 3rem;
+    height: 3rem;
+    left: 14rem;
+    top: 0rem;
+    border-radius: 1rem;
+    transform: rotate(270deg);
+}

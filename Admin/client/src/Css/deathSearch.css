@@ -1,0 +1,124 @@
+.death_serach_box{
+    position: absolute;
+    display: flex;
+    /* background-color: rgb(52, 134, 141); */
+/* width: 100%; */
+height: 100%;
+
+   
+}
+
+.death_serach{
+    position: absolute;
+    display: fixed;
+    /* background-color: rgb(52, 134, 141); */
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+
+  padding: 7.5rem;
+width: 160vh;
+height: auto;
+}
+
+.death_searchinput{
+    padding: 10px;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+    width: 300px;
+    margin-right: 10px;
+    font-family: Akshar;
+    border-color: rgb(67, 67, 221);
+    /* background-color: rgb(161, 174, 170); */
+}
+
+.death_searchbutton{
+    padding: 12px 20px;
+    /* background-color: #3459c8;
+    color: white; */
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: Akshar;
+}
+
+.death_box{
+   
+    border: 3px solid #3c12e3;
+    top:15rem;
+ left: 3rem;
+    border-radius: 4px;
+    padding: 5px;
+    grid-row-start: 3rem;
+    font-family: Akshar;
+}
+
+.death_peson_realname{
+    font-weight: bold;
+    font-style: italic;
+    /* color: rgb(253, 223, 27); */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.death-viewDetails{
+    margin-left: 31rem;
+    color: rgb(250, 0, 0);
+    text-decoration: none;
+    font-family: Akshar;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.death_peson_baptiname{
+    position: relative;
+    font-weight: bold;
+  left:3rem;
+    /* color: rgb(245, 198, 243); */
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+}
+
+.death_peson_familyname{
+    position: relative;
+    font-weight: bold;
+  left:3rem;
+    /* color: rgb(245, 198, 243); */
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+}
+
+.death-editDetails{
+    margin-left: 2.5rem;
+    color: rgb(250, 0, 0);
+    text-decoration: none;
+    font-family: Akshar;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 18px;
+}
+.death-certificateDetails{
+    margin-left: 2.5rem;
+    color: rgb(250, 0, 0);
+    text-decoration: none;
+    font-family: Akshar;
+    font-style: normal;
+    font-weight: lighter; 
+    font-size: 18px;  
+}
+.death_listbar{
+   position: relative;
+    margin-top: 2rem;
+ 
+}
+.death_box{
+    margin-top: 1rem;
+
+}
+ .loading-spinner {
+    width: 20px;
+    height: 20px;
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #007bff;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+  }

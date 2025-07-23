@@ -1,0 +1,445 @@
+.Homeprofile-background_color{
+    position: absolute;
+    background-color: #A5D7E8; 
+    width: 79%;
+    height: 30%;
+    top: 10rem;
+    left: 16rem; 
+    border-top-left-radius: 4rem;
+
+ }
+
+ .Homeprofile-ImageIcon{
+    position: absolute;
+    top: 8rem;
+    left: 58.5rem;
+    height: 2rem;
+    width: 2rem;
+    border: none;
+    background: none;
+ }
+
+ /* .Homeprofile-Imagecamera:hover{
+    position: absolute;
+    top: -0rem; 
+    right: -0rem;
+    opacity: 30%;
+    
+ } */
+
+ .Homeprofile-name{
+    position: absolute;
+    top: 22.5rem;
+    left: 26rem;
+    font-size: 1.5rem;
+
+ }
+
+ .Homeprofile-paragraph{
+    position: absolute;
+    top: 25rem;
+    left: 26rem;
+
+ }
+
+ .Homeprofile-main_image{
+    position: absolute;
+    top: 20rem;
+    left: 18rem;
+ }
+
+ .Homeprofile-file{
+    position: absolute;
+    top: 41.8rem;
+    left: 53rem;
+    width: 5.5rem;
+    cursor: pointer;
+    
+ }
+
+ .Homeprofile-error{
+    position: absolute;
+    top: 43rem;
+    left: 70rem;
+ }
+
+.Homeprofile-success{
+    position: absolute;
+    top: 43rem;
+    left: 70rem;
+}
+
+.Homeprofile-crop_box{
+   position: absolute;
+   top: 27rem;
+   left: 50.5rem;
+   opacity: 100%;
+
+}
+
+ .Homeprofile-btn-save{
+    position: absolute;
+    top: 42rem;
+    left: 61rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+
+} 
+
+ .Homeprofile-Cancelbtn{
+    position: absolute;
+    top: 25rem;
+    left: 65rem;
+    border: 0rem;
+    background: none;
+    cursor: pointer;
+
+ }
+
+ .Homeprofile-Savebtn{
+    position: absolute;
+    top: 25rem;
+    left: 70rem;
+    border: 0rem;
+    background: none;
+    cursor: pointer;
+    
+ }
+
+.Homeprofile-label1{
+    position: absolute;
+    top: 30rem;
+    left: 16rem;
+    font-weight: bold;
+
+}
+
+.Homeprofile-label_of_1{
+    position: absolute;
+    top: 30rem;
+    left: 30rem;
+    width: 15rem;
+}
+
+
+.Homeprofile-horizontal_line1{
+    position: absolute;
+    top: 33rem;
+    left: 16rem;
+    width: 40%; 
+    opacity: 20%;
+
+}
+
+.Homeprofile-label2{
+    position: absolute;
+    top: 34rem;
+    left: 16rem;
+    font-weight: bold;
+
+}
+
+.Homeprofile-label_of_2{
+    position: absolute;
+    top: 34rem;
+    left: 30rem;
+    width: 15rem;
+
+}
+
+.Homeprofile-horizontal_line2{
+    position: absolute;
+    top: 37rem;
+    left: 16rem;
+    width: 40%; 
+    opacity: 20%;
+
+}
+
+.Homeprofile-label3{
+    position: absolute;
+    top: 38rem;
+    left: 16rem;
+    font-weight: bold;
+
+}
+
+.Homeprofile-label_of_3{
+    position: absolute;
+    top: 38rem ;
+    left: 30rem;
+    width: 15rem;
+
+}
+
+.Homeprofile-horizontal_line3{
+    position: absolute;
+    top: 41rem;
+    left: 16rem;
+    width: 79%; 
+    opacity: 20%;
+
+}
+
+.Homeprofile-label4{
+    position: absolute;
+    top: 41.7rem;
+    left: 16rem;
+    font-weight: bold;
+
+}
+
+.Homeprofile-Updatebtn{
+    position: absolute;
+    top: 42rem;
+    left: 70rem;
+    border: 0rem;
+    background: none;
+    cursor: pointer;
+}
+
+.Homeprofile-Deletebtn{
+    position: absolute;
+    top: 42rem;
+    left: 65rem;
+    border: 0rem;
+    background: none;
+    cursor: pointer;
+}
+
+
+.Homeprofile-paragraph2{
+    position: absolute;
+    top: 44rem;
+    left: 16rem;
+    font-size: 0.7rem;
+
+}
+
+.Homeprofile-horizontal_line4{
+    position: absolute;
+    top: 46rem;
+    left: 16rem;
+    width: 79%; 
+    opacity: 80%;
+}
+
+.Homeprofile-updation{
+    position: absolute;
+    top: 46.5rem;
+    left: 16rem;
+    
+}
+
+.Homeprofile-name_update{
+    position: absolute;
+    top: 47rem;
+    left: 16rem;
+    font-weight: bold;
+}
+
+.Homeprofile-textbox1{
+    position: absolute;
+    top: 47rem;
+    left: 30rem;
+    width: 15rem;
+
+}
+
+.Homeprofile-email_update{
+    position: absolute;
+    top: 45rem;
+    left: 16rem;
+    font-weight: bold;
+
+}
+
+.Homeprofile-textbox2{
+    position: absolute;
+    top: 51rem;
+    left: 30rem;
+    width: 15rem;
+
+}
+
+.Homeprofile-horizontal_line5{
+    position: absolute;
+    top: 50rem;
+    left: 16rem;
+    width: 40%; 
+    opacity: 80%;
+}
+
+.Homeprofile-horizontal_line6{
+    position: absolute;
+    top: 54rem;
+    left: 16rem;
+    width: 40%; 
+    opacity: 80%;
+}
+
+
+.Homeprofile-name2{
+    position: absolute;
+    top: 7rem;
+    left: 3rem;
+
+}
+
+.Homeprofile-settings-labelname1{
+    position: absolute;
+    top: 12rem;
+    left: 3.5rem;
+    border: none;
+    background: none;
+
+}
+
+/* .Homeprofile-settings-logoutbtn{
+    position: absolute;
+    top: 15rem;
+    left: 3.5rem;
+    border: none;
+    background: none;
+
+} */
+.Homeprofile-settings-logoutbtn {
+    position: relative;
+    top: 15rem;
+    left: 3.5rem;
+    background: red;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: opacity 0.3s, transform 0.3s;
+    display: flex;
+    align-items: center;
+  }
+  
+  .Homeprofile-settings-logoutbtn::before {
+    content: '\f2f5';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    margin-right: 5px;
+  }
+  
+  .Homeprofile-settings-logoutbtn:hover {
+    opacity: 0.8;
+    transform: translateY(-3px);
+  }
+  
+  .Homeprofile-settings-logoutbtn-fade {
+    animation: fadeOut 0.3s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+  }
+  
+/*  toggle btn */
+.toggle-button {
+    display: inline-block;
+    position: relative;
+    width: 60px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 15px;
+    cursor: pointer;
+    top: 16.5rem;
+    left: 3.5rem;
+  }
+  
+  .toggle-button::before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 26px;
+    height: 26px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: transform 0.2s;
+  }
+  
+  .toggle-button.checked {
+    background-color: #5cb85c;
+  }
+  
+  .toggle-button.checked::before {
+    transform: translateX(30px);
+  }
+/* toggle btn end   */
+
+.Homeprofile-email_update{
+    position: absolute;
+    margin-top: 2.5rem;
+    font-family: Akshar;
+    line-height: 2rem;
+}
+
+.Father-details{
+    margin-left: 10rem;
+    width: 20rem;
+    margin-top: -2rem;
+}
+
+.mother-details{
+    position: absolute;
+    width: 30rem;
+    top: -0rem;
+    left: 30rem;
+    font-family: Akshar;
+    line-height: 2rem;
+}
+
+.Mother-details{
+    margin-left: 10rem;
+    margin-top: -2rem;
+}
+
+.childfam-details{
+    margin-left: 1rem;
+    width: 20rem;
+    margin-top: 2rem;
+}
+
+.Child-details{
+    margin-left: 10rem;
+    margin-top: -2rem;
+}
+
+.wifefam-details{
+    /* position: relative; */
+    margin-top: 2rem;
+     /*left: 30rem; */
+    font-family: Akshar;
+    line-height: 2rem;
+    width: 20rem;
+}
+
+.Wife-details{
+    margin-left: 10rem;
+    margin-top: -2rem;
+}
+
+.toggle-notes{
+    margin-top: 17rem;
+    width: 13rem;
+    margin-left: 3.3rem;
+    font-family: Akshar;
+}
+
+/* .wifeeer-details{
+    position: absolute;
+    margin-left: 20rem;
+} */

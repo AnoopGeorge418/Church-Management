@@ -1,0 +1,109 @@
+.otp_container
+ {
+  position: relative;
+  width: 100%;
+font-family:cursive, sans-serif;
+  background-color: #fff;
+  font-weight: 200;
+ min-height: 100vh;
+  overflow: hidden;
+  z-index: 4;
+}
+
+.otp_heading{
+  position: relative;
+  top:4.5rem;
+  left: 5rem;
+  color: rgb(213, 36, 154);
+  font-weight: 600;
+  font-size: 40px;
+}
+.otp_password{
+  position: relative;
+  top:7rem;
+  left:5rem;
+  color: rgb(125, 1, 84);
+}
+  .otp_timer{
+  position:relative;
+  top:9.7rem;
+  left:12.8rem;
+}  
+.time_remain{
+  position:relative;
+  top:10.9rem;
+  left:5rem;
+}
+
+
+  .input_container{
+   position:absolute;
+    display:flex;
+    width: 15px;
+   gap:20px;
+   height:  30px;
+   top:20rem;
+   left:5rem;
+  }
+ .otpbox_field{
+  text-align: center;
+  height:35px;
+  width: 40px;
+  border: 2px solid rgb(218, 16, 195);
+   border-radius: 8px;
+   box-sizing: border-box;
+   background-color: rgba(251, 251, 251, 1);
+ } 
+ .otp_success{
+  position:absolute ;
+  top:38rem;
+  left:40rem;
+  color: rgb(251, 7, 255);
+  font-size: 22px;
+ }
+
+.otp_button{
+   position:absolute;
+   top:29rem;
+   left:8rem;
+   width: 15rem;
+   height:3rem;
+   border-radius: 50px;
+   font-weight: 800;
+   font-size: 16px;
+   text-transform: uppercase;
+   box-sizing: border-box;
+  cursor:pointer;
+   background-color: rgb(221, 226, 232);
+}
+
+.otp_button:hover{
+  box-shadow: 0 0 10px 0 #882a7f inset, 0 0 20px 2px #ffade9;
+   border: 3px solid rgb(200, 3, 222)
+}
+
+.otp_image{
+  position: absolute;
+  margin-left: 700px;
+  top: 8rem;
+}
+
+
+
+.resend_otp{
+  position:relative;
+  top:22rem;
+  left:18rem;
+  background-color: transparent;
+  border: none;
+  color: rgb(215, 12, 218);
+   cursor: pointer;
+  font-size: inherit; 
+}
+
+ .otp_failed{
+  position:relative;
+  top:23.4rem;
+  left:7.9rem;
+}
+ 

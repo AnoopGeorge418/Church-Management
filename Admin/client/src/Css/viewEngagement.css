@@ -1,0 +1,67 @@
+.engagement_view_box{
+    position: absolute;
+    /* background-color: rgb(235, 224, 245); */
+    width: 80vw;
+    /* height: 100%; */
+    top:5rem;
+    left:15rem;
+    }
+    .engagement_groom_headinh{
+        position: absolute;
+        left: 5rem;
+        top:0rem;
+        /* text-decoration: underline; */
+        font-size: 28px;
+        font-family: Akshar;
+        font-style: italic;
+        /* color: rgba(255, 0, 21, 0.84); */
+    }
+    .engagement_groom_detail{
+        position: absolute;
+        top:6.5rem;
+        left:8rem;
+        line-height: 2rem;
+        /* color: rgb(1, 18, 19); */
+        font-size: 25px;
+        font-style: italic;
+        font-family: Akshar;
+    }
+    .engagement_bride_headinh{
+        position: absolute;
+        left:45rem;
+        top:0rem;
+        /* text-decoration: underline; */
+        font-size: 28px;
+        font-family: Akshar;
+        font-style: italic;
+        /* color: rgba(255, 0, 21, 0.84); */
+    }
+    .engage_bride_data{
+        position: absolute;
+        top:6.5rem;
+        left:48rem;
+        /* color: rgb(1, 18, 19); */
+        font-size: 25px;
+        line-height: 2rem;
+        font-style: italic;
+        font-family: Akshar;
+    }
+    .engaement_other_data_detlis{
+        position: absolute;
+        left:6rem;
+        top:32rem;
+        font-size: 22px;
+        font-family: Akshar;
+        font-style: italic;
+        /* color: rgba(255, 0, 21, 0.84);  */
+    }
+    .engaement_other_data__{
+        position: absolute;
+        top:36.5rem;
+        left:9rem;
+        line-height: 2rem;
+        /* color: rgb(1, 18, 19); */
+        font-size: 25px;
+        font-style: italic;
+        font-family: Akshar;
+    }

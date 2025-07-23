@@ -1,0 +1,77 @@
+
+.Error_container{
+  display: flex;
+  position: absolute;
+  /* width:96rem; */
+  width:100%;
+  height: 100%;
+  background:rgb(212, 246, 231);
+
+} 
+.Error_image{
+  width: 28rem;
+  top:3rem;
+  left: 29rem;
+  position: absolute;
+  object-fit: cover;
+  position: fixed;
+    
+}
+.Error_msg{
+   /* display: flex; */
+  position:absolute;
+ /* position: fixed; */
+  font-weight: bold;
+  font-size: 22px;
+  top:26rem;
+  left:34rem;  
+
+} 
+
+  .Error_msg1{
+  position: absolute;
+  top:30rem;
+  left:22rem;
+  font-size: 21px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+
+} 
+
+ .Error_msg2{
+  position: absolute;
+  font-weight: bold;
+  top:32rem;
+  left:27rem;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+
+ } 
+ 
+
+
+.Error_button403{
+  position:absolute;
+  top:35rem;
+  left:37rem; 
+  width: 9rem;
+  height:3rem;
+  cursor: pointer;
+   border-radius: 50px;
+  font-weight: 800;
+  font-size: 16px;
+  text-transform: uppercase;
+  box-sizing: border-box; 
+  background-color: rgb(212, 246, 231);;
+
+}
+
+.Error_button403:hover{
+  box-shadow: 0 0 10px 0 #92dd7f inset, 0 0 5px 2px #181818;
+  border: 3px solid rgb(142, 252, 193) 
+  
+}
+/* .Error_container_1{
+  overflow: hidden;
+} */
+   

@@ -1,0 +1,261 @@
+.addMember-Container{
+  position: absolute;
+  /* background-color: rgb(49, 69, 103); */
+  width: 60vh;
+  height: auto;
+}
+.pageheading{
+  position: absolute;
+  top:-2rem;
+left: 23rem;
+width: 40rem;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-style: italic;
+font-size: 30px;
+/* color: rgb(244, 200, 236); */
+}
+
+.house_information{
+  position: relative;
+  top:6rem;
+width: 20rem;
+
+  left: 2rem; 
+}
+.house_data{
+  position: relative;
+  top:0rem;
+  height: 4.5rem;
+}
+.house_delatils{
+  position: relative;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+/* color: antiquewhite; */
+font-size: 21px;
+
+}
+.house_details_fill{
+  position: relative;
+  width: 15rem;
+  display: block;
+  height: 1.5rem;
+  border-radius: 4px;
+/* background-color: rgb(145, 161, 167); */
+border-color: rgb(255, 165, 165);
+}
+
+
+
+.fathet_detalis{
+  position: relative;
+  height: 4rem;
+  border-radius: 4px;
+  /* background-color: rgba(59, 73, 97, 0.99); */
+}
+.father_entry{
+  display:block;
+    position: relative;
+    top:2rem;
+    /* color: rgb(221, 244, 211); */
+    left:2rem;
+    width: 10rem;
+    height: 1rem;
+    font-family: cursive;
+    font-size: 20px;
+
+}
+.father_flied_fill{
+  position: relative;
+top:1rem;
+    left:15rem;
+    width: 20rem;
+    height: 1.5rem;
+    border-radius: 4px;
+   cursor: pointer;
+   padding-left: 6px;
+ border:solid  rgb(237, 198, 198);
+   /* background-color: rgb(145, 161, 167); */
+}
+.Father-Heading{
+  position: relative;
+  font-size: 32px;
+  top: 2rem;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+/* color: rgb(0, 170, 255); */
+}
+.father_all_data{
+  position: relative;
+  top:4rem;
+width: 42rem;
+  left: 2rem;
+}
+
+
+.Mother_info{
+  position: absolute;
+  top:17.8rem;
+/* width: 42rem; */
+  left: 49rem;
+}
+.Mother_detalis{
+  position: relative;
+  height: 4rem;
+  left: -6rem;
+  border-radius: 4px;
+  /* background-color: rgba(59, 73, 97, 0.99); */
+}
+.mother_entey{
+  display:block;
+  position: relative;
+  top:2rem;
+  /* color: rgb(213, 232, 205); */
+  left:2rem;
+  width: 10rem;
+  height: 1rem;
+  font-family: cursive;
+  font-size: 20px;
+}
+.mothe_fill_flied{
+  position: relative;
+top:1rem;
+    left:15rem;
+    width: 20rem;
+    height: 1.5rem;
+    border-radius: 4px;
+   cursor: pointer;
+   padding-left: 6px;
+ border:solid  rgb(237, 198, 198);
+   /* background-color: rgb(145, 161, 167); */
+}
+.Mother_Heading{
+  position: relative;
+  font-size: 32px;
+  top: 2rem;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+/* color: rgb(0, 170, 255); */
+}
+ 
+.child_datainfo_fill{
+  position: relative;
+top:-2rem;
+    left:19rem;
+    width: 20rem;
+    height: 1.5rem;
+    border-radius: 4px;
+   cursor: pointer;
+   padding-left: 6px;
+  
+ border:solid  rgb(237, 198, 198);
+   /* background-color: rgb(145, 161, 167);  */
+}
+.child_entry{
+  display:block;
+  position: relative;
+  top:0rem;
+  /* color: rgb(246, 182, 230); */
+  left:4rem;
+  width: 10rem;
+  height: 2rem;
+  font-family: cursive;
+  font-size: 20px;
+}
+
+
+.child_informaton_list{
+  position: relative;
+  top:0rem;
+width: 42rem;
+  left: 2rem;
+}
+.Child_Heading{
+  position: relative;
+  font-size: 34px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  left: 2rem;
+  top: 1rem;
+  /* color: #ff7802; */
+}
+
+.chid_hhahhahahaha{
+  /* position: relative; */
+  top:6rem;
+width: 50rem;
+
+  left: 2rem; 
+  /* background-color: rgb(49, 69, 103); */
+}
+
+.child_name_head{
+  position: relative; 
+  font-size: 25px;
+  top:0rem;
+left:2rem;
+/* color: rgb(211, 255, 228); */
+font-style: oblique;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Child-Info{
+  position: relative;
+ 
+  top:4rem;
+  /* background-color: rgb(49, 69, 103); */
+}
+.wife_hhhhhhhhhhhhhh{
+  position: relative;
+  top:0rem;
+  left:3rem;
+}
+.wife_heading{
+  position: relative;
+  font-size: 27px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  /* color: #f88c8c; */
+  /* left: 4rem; */
+}
+.sucess_btn{
+  position:relative;
+  top:2rem;
+  height: 2rem;
+  left: 3rem;
+
+
+}
+.addmember{
+  position: relative;
+  width:15rem ;
+  height: 2rem;
+  top:2rem;
+  text-transform: uppercase;
+  border-radius: 7px;
+  font-size: 15px;
+  background-color: lightslategrey;
+   /*color: #ededed; */
+ cursor: cell;
+}
+.savemember{
+  position: relative;
+  width:15rem ;
+  height: 2rem;
+  top:2rem;
+  left:3rem;
+  text-transform: uppercase;
+  border-radius: 7px;
+  font-size: 15px;
+  background-color: lightslategrey;
+  /* color: #ededed; */
+ cursor: cell;
+}
+.wife_image{
+  position: absolute;
+right: 60rem;
+top:4rem;
+}
+.save_family{
+  position: relative;
+  /* background-color:  rgb(49, 69, 103); */
+  /* width: 213vh; */
+  height: 10rem;
+}

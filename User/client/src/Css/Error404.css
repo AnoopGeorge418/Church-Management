@@ -1,0 +1,56 @@
+.Error404-msg{
+    position: absolute;
+    position: fixed;
+    top: 27.5rem;
+    left: 40rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.Error404-link_error1{
+    position: absolute;
+    position: fixed;
+    top: 31rem;
+    left: 37rem;
+}
+
+.Error404-link_error2{
+    position: absolute;
+    position: fixed;
+    top: 32.5rem;
+    left: 39rem;
+}
+
+.Error404image{
+    width: 45rem;
+    top: 5rem;
+    left: 35rem;
+    position: absolute;
+    object-fit: cover;
+    position: fixed;
+    
+      
+  }
+
+  .Error404_button{
+    position:absolute;
+    position: fixed;
+    top: 35.5rem;
+    left: 42rem; 
+    width: 10rem;
+    height: 3rem;
+    cursor: pointer;
+    border-radius: 50px;
+    font-weight: 800;
+    font-size: 16px;
+    text-transform: uppercase;
+    box-sizing: border-box; 
+    background-color: rgb(97, 181, 219);;
+  
+  }
+  
+  .Error404_button:hover{
+    box-shadow: 0 0 10px 0 rgb(49, 101, 156) inset, 0 0 3px 0px #5fa0c9;
+    border: 3px solid rgb(94, 125, 153)
+  
+  }

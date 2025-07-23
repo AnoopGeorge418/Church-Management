@@ -1,0 +1,296 @@
+.addDeath-Container{
+    position: relative;
+    min-height: 110rem;
+    min-width: 100%;
+    /* background-color: #2e488a; */
+    margin-top: 5rem;
+}
+
+.addDeath-Heading{
+    position: relative;
+    top:2rem;
+    margin-left: 39rem;
+    font-family: Akshar;
+    font-size: 4rem;
+    /* color: chocolate; */
+}
+
+.addDeath-registry{
+    margin-left: 5rem;
+    font-family: Akshar;
+    font-weight: bold;
+}
+
+.addDeath-labels_and_inputs{
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+.addDeath-label{
+    /* color: rgb(13, 255, 227); */
+}
+
+.addDeath-label_1{
+   position: absolute;
+   margin-top: 5rem;
+   /* color: rgb(13, 255, 227); */
+}
+
+.addDeath-input-field1{
+    margin-left: 13.5rem;
+    margin-top: 4.5rem;
+    padding: 0.5rem;
+    width: 25rem;
+    height: 10rem;
+    border-radius: 0.5rem;
+    resize: none;
+    font-family: Akshar;
+    font-size: 25px;
+    /* color: rgb(0, 0, 0); */
+    border-color: #ffa238;
+   /* background-color: cadetblue; */
+}
+
+.addDeath-input-field2{
+    margin-left: 10rem;
+    padding: 0.5rem;
+    width: 20rem;
+    border-radius: 0.5rem;
+    font-family: Akshar;
+    border-color: #ffa238;
+    font-size: 25px;
+    /* color: rgb(0, 0, 0); */
+    /* background-color: cadetblue; */
+}
+
+.addDeath-input-field3{
+    margin-left: 5.7rem;
+    padding: 0.5rem;
+    width: 20rem;
+    font-size: 25px;
+    /* color: rgb(0, 0, 0); */
+    border-color: #ffa238;
+    border-radius: 0.5rem;
+    font-family: Akshar;
+    /* background-color: cadetblue; */
+}
+
+.addDeath-input-field4{
+    margin-left: 3.7rem;
+    padding: 0.5rem;
+    width: 20rem;
+    font-size: 25px;
+    /* color: rgb(0, 0, 0); */
+    border-color: #ffa238;
+    border-radius: 0.5rem;
+    /* background-color: cadetblue; */
+}
+
+.addDeath-input-field5{
+    margin-left: 11.5rem;
+    padding: 0.5rem;
+    width: 20rem;
+    font-size: 25px;
+    /* color: rgb(0, 0, 0); */
+    border-color: #ffa238;
+    border-radius: 0.5rem;
+    /* background-color: cadetblue; */
+}
+
+.addDeath-label2{
+    margin-left: 3rem;
+    /* color: rgb(13, 255, 227); */
+}
+
+.addDeath-input-field6{
+    margin-left: 7.7rem;
+    padding: 0.5rem;
+    width: 20rem;
+    font-size: 25px;
+    /* color: rgb(0, 0, 0); */
+    border-color: #ffa238;
+    border-radius: 0.5rem;
+    /* background-color: cadetblue; */
+}
+
+.addDeath-input-field7{
+    margin-left: 8.9rem;
+    padding: 0.5rem;
+    width: 20rem;
+    font-size: 25px;
+    /* color: rgb(0, 0, 0); */
+    border-color: #ffa238;
+    border-radius: 0.5rem;
+    /* background-color: cadetblue; */
+}
+
+.addDeath-input-field8{
+    margin-left: 4rem;
+    padding: 0.5rem;
+    font-size: 25px;
+    /* color: rgb(0, 0, 0); */
+    width: 20rem;
+    border-color: #ffa238;
+    border-radius: 0.5rem;
+    /* background-color: cadetblue; */
+}
+
+.addDeath-input-field9{
+    margin-left: 5rem;
+    padding: 0.5rem;
+    width: 20rem;
+    font-size: 25px;
+    /* color: rgb(0, 0, 0); */
+    border-color: #ffa238;
+    border-radius: 0.5rem;
+    /* background-color: cadetblue; */
+}
+
+.addDeath-input-field10{
+    padding: 0.5rem;
+    width: 20rem;
+    font-size: 25px;
+    /* color: rgb(0, 0, 0); */
+    border-color: #ffa238;
+    border-radius: 0.5rem;
+    margin-left: 5rem;
+    /* background-color: cadetblue; */
+}
+
+.addDeath-input-field11{
+    padding: 0.5rem;
+    font-size: 25px;
+    /* color: rgb(0, 0, 0); */
+    width: 20rem;
+    border-color: #ffa238;
+    border-radius: 0.5rem;
+    margin-left: 6rem;
+    /* background-color: cadetblue; */
+}
+.addDeath-input-field12{
+    padding: 0.5rem;
+    width: 20rem;
+    font-size: 25px;
+    /* color: rgb(0, 0, 0); */
+    border-radius: 0.5rem;
+    margin-left: 6rem;
+    border-color: #ffa238;
+    /* background-color: cadetblue; */
+}
+.addDeath-button{
+    padding: 0.5rem;
+    width: 20rem;
+    border-radius: 0.5rem;
+    margin-left: 40rem;
+    margin-top: 3rem;
+}
+
+/* .addDeath-radio1{
+    margin-left: 7rem;
+}
+
+.addDeath-radio2{
+    margin-left: 4rem;
+} */
+
+/* .addDeath-radio-field1{
+    position: absolute;
+    margin-left: -9rem;
+    margin-top: 0.5rem;
+}
+
+.addDeath-radio-field2{
+    position: absolute;
+    margin-left: -3rem;
+    margin-top: 0.5rem;
+} */
+
+/* .addDeath-radio3{
+    margin-left: 8.3rem;
+}
+
+.addDeath-radio4{
+    margin-left: 3.9rem;
+}
+
+.addDeath-radio5{
+    margin-left: 3.4rem;
+}
+
+.addDeath-radio6{
+    margin-left: 3.8rem;
+} */
+
+/* .addDeath-radio-field3{
+    margin-left: -9rem;
+}
+
+.addDeath-radio-field4{
+    margin-left: 5rem;
+}
+
+.addDeath-radio-field5{
+    margin-left: -9rem;
+}
+
+.addDeath-radio-field6{
+    margin-left: 5rem;
+} */
+
+.addDeath-button{
+    width: 15rem;
+    height: 3rem;
+    border-color: #ffa238;
+    /* background-color: cadetblue; */
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.vitaticm_select{
+    position: absolute;
+    padding: 0.5rem;
+    width: 20rem;
+    border-color: #ffa238;
+    border-radius: 0.5rem;
+    margin-left: 6rem;
+    font-size: 20px;
+    /* color: rgb(0, 0, 0); */
+    /* background-color: cadetblue; */
+}
+.Anointing_of_sick_select{
+    position: absolute;
+    padding: 0.5rem;
+    width: 20rem;
+    font-size: 20px;
+    /* color: rgb(0, 0, 0); */
+    border-radius: 0.5rem;
+    margin-left: 1rem;
+    border-color: #ffa238;
+    /* background-color: cadetblue; */
+}
+.confession_select{
+    position: absolute;
+    padding: 0.5rem;
+    width: 20rem;
+    font-size: 20px;
+    /* color: rgb(0, 0, 0); */
+    border-radius: 0.5rem;
+    margin-left: 5rem; 
+    border-color: #ffa238;
+    /* background-color: cadetblue; */
+}
+.death_sa_msg{
+    position: absolute;
+    top:40rem;
+    left:50rem;
+    font-family: cursive;
+    /* color:rgb(255, 125, 4); */
+}
+.death_err_msg{
+    position: absolute;
+    top:90rem;
+    left:50rem;
+    font-family: cursive;
+    /* color:rgb(255, 222, 192); */
+    font-size: 28px;  
+}

@@ -1,0 +1,232 @@
+:root {
+  --primaryColor: #476a2e;
+  --mainWhite: #fff;
+  --mainBackground: #f1f5f8;
+  --mainBlack: #222;
+  --mainGrey: #ececec;
+  --darkGrey: #afafaf;
+  --mainTransition: all 0.3s linear;
+  --mainSpacing: 0.3rem;
+  --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+  --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  --mainBorderRadius: 0.25rem;
+  --smallWidth: 85vw;
+}
+.navbar {
+  background: rgb(197, 220, 234);
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid var(--primaryColor);
+  box-shadow: var(--lightShadow);
+  direction: rtl;
+  position: fixed;
+  padding-right: 4.4rem;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 4; 
+}
+
+.nav-center {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  direction: left;
+  list-style: none;
+  position: fixed;
+}
+
+.nav-links a {
+  text-transform: capitalize;
+  display: inline-block;
+  font-weight: bold;
+  margin-right: 0.5rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+  padding: 0.25rem 0.5rem;
+  transition: var(--mainTransition);
+  cursor: pointer;
+}
+
+.nav-links a:hover {
+  color: var(--darkGrey);
+}
+
+.nav_logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-right: 80rem; /* push the logo to the left */
+}
+
+.logo {
+  height: 4.4rem;
+  width: auto;
+  margin-right: 4rem; /* add some spacing */
+}
+.profile-image{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 1rem;
+}
+
+.rounded {
+  height: 3.4rem;
+  width: 3.4rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 0.1rem;
+  border: 2px solid black;
+}
+
+.textcolor {
+  color: rgb(11, 10, 10);
+  font-family: 'Akshar';
+  text-decoration: none;
+  outline: none;
+}
+
+.on {
+  color: rgb(236, 5, 5);
+  font-family: 'Roboto';
+}
+
+.nav_button {
+  background-color: transparent;
+  border: 3px solid #00d7c3;
+  border-radius: 50px;
+  transition: all 0.15s ease-in-out;
+  color: #000000;
+  font-size: 1.2rem;
+  padding: 0.75rem 2.5rem;
+}
+
+.nav_button:hover {
+  box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
+  border: 3px solid #00d
+}
+
+.certificate-subnav {
+  display: none;
+  position: absolute;
+  top: 2rem;
+  left: 0;
+  background-color: var(--mainWhite);
+  padding: 10px;
+  width: 15rem;
+  font-weight: 400;
+  letter-spacing: 5px;
+  font-size: 1rem;
+  text-transform: capitalize;
+  z-index: 2;
+  text-align: left;
+}
+
+.certificate-subnav a {
+  display: block;
+  padding: 5px 0;
+  color: var(--mainBlack);
+  text-decoration: none;
+}
+
+.certificate-subnav a:hover {
+  color: var(--primaryColor);
+}
+
+.nav-links li {
+  position: relative;
+  
+}
+
+.nav-links li:hover .certificate-subnav {
+  display: block;
+  left: 0;
+  right:10;
+}
+
+.navbar .user-info {
+  position: relative; /* Ensure the subnavbar is positioned relative to the user-info container */
+}
+
+.navbar .profile-image {
+  position: relative; /* Ensure the subnavbar is positioned relative to the profile image */
+}
+
+.navbar .profile-image .subnavbar {
+  position: absolute;
+  top: 100%; /* Position the subnavbar below the profile image */
+  left: -2rem;
+  display: none; /* Hide the subnavbar by default */
+  width: 9rem;
+  padding: 10px;
+  background-color: #fcfcfc;
+  border: 1px solid rgb(5, 146, 212);
+  border-radius: 4px;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  text-align: left;
+  justify-content: left;
+  height: 6.5rem;
+}
+
+.navbar .profile-image:hover .subnavbar {
+  display: block; /* Show the subnavbar when hovering over the profile image */
+}
+
+.navbar .profile-image .subnavbar a {
+  display: block;
+  padding: 5px 10px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.navbar .profile-image .subnavbar a:hover {
+  background-color: #ffffff;
+  
+}
+
+.navbar .profile-image .subnavbar a.on {
+  background-color: #ffffff;
+  color: red;
+}
+
+/* logout */
+
+.navebar-settings-logoutbtn {
+  position: absolute;
+  top: 3rem;
+  left: 1.3rem;
+  background: rgb(216, 10, 10);
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: opacity 0.3s, transform 0.3s;
+  display: flex;
+  align-items: center;
+}
+
+
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+}

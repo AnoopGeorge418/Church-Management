@@ -1,0 +1,65 @@
+.marriage_view_box{
+    position: absolute;
+    /* background-color: rgb(235, 224, 245); */
+    width: 80%;
+    /* height: 110%; */
+    top:5rem;
+    left:15rem;
+    }
+    .marriage_groom_headinh{
+        position: absolute;
+        left: 5rem;
+        top:0rem;
+        /* text-decoration: underline; */
+        font-size: 28px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: italic;
+        /* color: rgba(255, 0, 21, 0.84); */
+    }
+    .marriage_groom_detail{
+        position: absolute;
+        top:6rem;
+        left:8rem;
+        /* color: rgb(1, 18, 19); */
+        font-size: 25px;
+        font-style: italic;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .marriage_bride_headinh{
+        position: absolute;
+        left:40rem;
+        top:0rem;
+        /* text-decoration: underline; */
+        font-size: 28px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: italic;
+        /* color: rgba(255, 0, 21, 0.84); */
+    }
+    .marriage_bride_data{
+        position: absolute;
+        top:6rem;
+        left:44rem;
+        /* color: rgb(1, 18, 19); */
+        font-size: 25px;
+        font-style: italic;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .marriage_other_data_detlis{
+        position: absolute;
+        left:6rem;
+        top:29rem;
+        /* text-decoration: underline; */
+        font-size: 22px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: italic;
+        /* color: rgba(255, 0, 21, 0.84);  */
+    }
+    .marriage_other_data__{
+        position: absolute;
+        top:34rem;
+        left:8.5rem;
+        /* color: rgb(1, 18, 19); */
+        font-size: 25px;
+        font-style: italic;
+        font-family: 'Times New Roman', Times, serif;
+    }

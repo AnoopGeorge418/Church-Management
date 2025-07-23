@@ -1,0 +1,87 @@
+.Landing-Background_Image {
+    position: relative;
+    background-color: rgb(76, 132, 196);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+.Landing-Bottom_color{
+    position: absolute;
+    background-color: rgb(103, 109, 227);
+    height: 15rem;
+    width: 100vw;
+    bottom: 0;
+    border-top-right-radius: 100%;
+    border-bottom-style: solid;
+}
+
+.Landing-Heading{
+    position: absolute;
+    bottom: 33rem;
+    left: 5rem;
+    font-family: Akshar;
+    font-size: 10rem;
+    color: white;
+    text-shadow: 1rem;
+}
+
+.Landing-Sub_Heading{
+    position: absolute;
+    bottom: 28.5rem;
+    left: 5rem;
+    font-family: Akshar;
+    font-size: 2.5rem;
+    color: white;
+    text-shadow: 1rem;
+}
+
+.Landing-Quote{
+    position: absolute;
+    bottom: 19rem;
+    left: 6rem;
+    font-family: Akshar;
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: 1rem;
+}
+
+.Landing-left_double{
+    position: absolute;
+    bottom: 26.5rem;
+    left: 5rem;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.Landing-right_double{
+    position: absolute;
+    bottom: 18.9rem;
+    left: 37.5rem;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.Landing-Author{
+    position: absolute;
+    bottom: 16rem;
+    left: 39rem;
+    font-size: 1.5rem;
+    color: white;
+    font-family: Akshar;
+}
+
+
+
+.Landing-Announcement_Button:hover{
+ box-shadow: 0 0 10px 0 #3dff0d inset, 0 0 5px 2px #181818;
+  border: 3px solid rgb(1, 26, 13) 
+}
+
+.Landing-priest-image{
+    position: absolute;
+    left: 73rem;
+    top: 8rem;
+}

@@ -1,0 +1,149 @@
+.edit_engagement_container {
+  position: absolute;
+  top: 3rem;
+  /* width: 100%;
+  height: 160%; */
+  /* background-color: rgb(57, 112, 94); */
+}
+
+.edit_enga_heading {
+  position: absolute;
+  left: 28rem;
+  width: 35rem;
+  font-size: 27px;
+  /* color: rgb(6, 6, 52); */
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.Groom_heading_dta {
+  position: absolute;
+  top: 6rem;
+  left: 3rem;
+  font-size: 35px;
+  /* color: aquamarine; */
+  /* text-decoration: underline; */
+}
+
+.bride_heading_conta {
+  position: relative;
+  top: 1rem;
+  left:  9rem;
+  font-size: 35px;
+  /* color: aquamarine; */
+  /* text-decoration: underline; */
+}
+
+.edit_engag {
+  position: relative;
+  top: 2rem;
+  /* color: rgb(255, 234, 48); */
+  left: 3rem;
+  width: 20rem;
+  height: 2rem;
+  font-family: cursive;
+  font-size: 20px;
+}
+
+.edit_engagement {
+  position: relative;
+  top: 11rem;
+  left: 0rem;
+}
+
+.edit_engagement_set {
+  position: relative;
+  display: block;
+  top: 0rem;
+  left: 15rem;
+  width: 20rem;
+  height: 1.5rem;
+  font-size: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  padding-left: 6px;
+  border: solid rgb(218, 197, 197);
+  /* background-color: rgb(188, 206, 212); */
+}
+
+.edit_update_eng {
+  position: absolute;
+  top: 64rem;
+  left: 45rem;
+  width: 15rem;
+  height: 3rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 22px;
+  border-radius: 6rem;
+  /* background-color: rgb(193, 197, 216); */
+}
+
+.edit_msg {
+  position: absolute;
+  top: 60rem;
+  left: 45rem;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.bride_heading_dta {
+  position: absolute;
+  top: 6rem;
+  left: 5rem;
+  font-size: 25px;
+  /* color: aquamarine; */
+  text-decoration: underline;
+}
+
+.edit_engag_bride {
+  position: relative;
+  top: -1rem;
+  /* color: rgb(255, 234, 48); */
+  left: 12rem;
+  width: 20rem; 
+  height: 2rem;
+  font-family: cursive;
+  font-size: 20px;
+}
+
+.edit_engagement_bride {
+  position: relative;
+  display: block;
+  top: -2rem;
+  left: 23rem;
+  width: 20rem;
+  font-size: 15px;
+  height: 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  padding-left: 6px;
+  border: solid rgb(218, 197, 197);
+  /* background-color: rgb(188, 206, 212); */
+}
+
+
+/* .bride_info_dta {
+  position: absolute;
+  top: 5rem;
+  left: 30rem;
+} */
+.recoed_of_bride{
+  position: absolute;
+  top:5rem;
+  left: 35rem;
+  width: none;
+ 
+}
+.edit_engages_other{
+  position: relative;
+  top:21rem;
+  right: 7rem
+}
+.other_detail{
+ position: absolute;
+  top:40rem;
+  font-size: 35px;
+  font-family: 'Times New Roman', Akshar, serif;
+  left:3rem;
+  width: 25rem;
+}

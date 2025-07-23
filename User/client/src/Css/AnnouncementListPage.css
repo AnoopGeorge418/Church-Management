@@ -1,0 +1,73 @@
+
+.announcement-list-container {
+    text-align: center;
+  }
+  
+  .announcement-list-container h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .announcement-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+  }
+  
+  .announcement-item {
+    background-color: #f2f2f2;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+  .announcement-item:hover {
+    opacity: 0.8;
+    transform: translateY(-3px);
+  }
+  
+  .no-announcements {
+    margin-top: 20px;
+    font-style: italic;
+    color: #888;
+  }
+  
+  /* Animation classes */
+  .animate-fade-in {
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    animation-name: fade-in;
+  }
+  
+  .animate-fade-in-up {
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    animation-name: fade-in-up;
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fade-in-up {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+ 

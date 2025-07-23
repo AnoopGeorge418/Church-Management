@@ -1,0 +1,162 @@
+.About_Us-Content{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+}
+
+.About_Us-Image {
+    position: absolute;
+    background-image: url('../Img/About_Us-Church_Image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    width: 30rem;
+    height: 35rem;
+    left: 63rem;
+    top: 10rem;
+    border-radius: 2rem;
+    background: cover;
+}
+
+.About_Us-Heading{
+    position: absolute;
+    top: 10rem;
+    left: 7rem;
+    font-size: 5rem;
+    font-family: Akshar;
+    font-weight: 2rem;
+    color: black;
+    text-decoration: underline 3px;
+}
+
+.About_Us-info{
+    position: absolute;
+    top: 20rem;
+    left: 7rem;
+    font-size: 1.3rem;
+    font-family: Akshar;
+    font-weight: bold;
+    color: black;
+    line-height: 1.3;
+    
+}
+
+.About_Us-Head-priest_image{
+    position: absolute;
+    background-image: url('../Img/About_Us-Head-priest_image.jpeg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    width: 40rem;
+    height: 30rem;
+    left: 5rem;
+    top: 40rem;
+    border-radius: 2rem;
+}
+
+.About_Us-Head-priest_info{
+    position: absolute;
+    top: 47rem;
+    left: 48rem;
+    font-size: 1.3rem;
+    font-family: Akshar;
+    font-weight: bold;
+    line-height: 1.7rem;
+    text-align: left;
+}
+
+.Head-priest-basic_info{
+    position: absolute;
+    left: 48rem;
+    top: 62rem;
+    font-size: 1.3rem;
+    font-family: Akshar;
+    font-weight: bold;
+    line-height: 1.7rem;
+}
+
+.Head-priest-name_label{
+    position: absolute;
+    left: 55rem;
+    top: 62rem;
+    font-size: 1.3rem;
+    font-family: Akshar;
+    font-weight: bold;
+    line-height: 1.7rem;
+}
+
+.role-priest{
+    position: absolute;
+    top: 1.7rem;
+    left: 0rem;
+    font-size: 1.3rem;
+    font-family: Akshar;
+    font-weight: bold;
+    line-height: 1.7rem;
+    text-align: left;
+}
+
+.Edu-priest{
+    position: absolute;
+    top: 4.5rem;
+    left: 0rem;
+    font-size: 1.3rem;
+    font-family: Akshar;
+    font-weight: bold;
+    line-height: 1.7rem;
+    text-align: left;
+}
+
+.About_Us-Assist-priest_info{
+    position: absolute;
+    top: 80rem;
+    left: 7rem;
+    font-size: 1.3rem;
+    font-family: Akshar;
+    font-weight: bold;
+    line-height: 1.7rem;
+    text-align: left;
+}
+
+.About_Us-Assist-priest_image{
+    position: absolute;
+    background-image: url('../Img/About_Us-Assist-priest_image.jpeg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    width: 40rem;
+    height: 30rem;
+    left: 55rem;
+    top: 75rem;
+    border-radius: 2rem;
+}
+
+.Assist-priest-basic_info{
+    position: absolute;
+    top: 97rem;
+    left: 7rem;
+    font-size: 1.3rem;
+    font-family: Akshar;
+    font-weight: bold;
+    line-height: 1.7rem;
+    text-align: left;
+}
+
+.Assist-priest-name_label{
+    position: absolute;
+    left: 15rem;
+    top: 97rem;
+    font-size: 1.3rem;
+    font-family: Akshar;
+    font-weight: bold;
+    line-height: 1.7rem;
+}
+
+a[href*="#"] {
+    transition: all 0.5s ease-in-out;
+  }
+  
+  a[href*="#"]:hover {
+    color: blue;
+  }

@@ -1,0 +1,208 @@
+.Engagement_Container{
+    position: absolute;
+   
+    /* background-color: rgba(33, 45, 65, 0.99); */
+    width: 129vh;
+    height: 170%;
+}
+/* .Bridegroom_head{
+    position: absolute;
+    top:0rem;
+    left: 1rem;
+    color: #faa047;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px; 
+} */
+.Engagement_heading{
+    position: absolute;
+    top:0rem;
+    left: 10rem;
+    /* color: #1fdee8; */
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 27px;
+}
+.engagement_formfill{
+    
+    position: relative;
+    top:0rem;
+    width: 100vh;
+
+    height: 4.5rem;
+    
+    border-radius: 4px;
+    left: 0rem;
+    /* background-color: rgba(59, 73, 97, 0.99); */
+}
+.bridegroom_heading{
+    position: relative;
+    top:1rem;
+    left: 1rem;
+    /* color: #faa047; */
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px; 
+}
+.bride_heading{
+
+    position: relative;
+    top:1rem;
+    left: 3rem;
+    /* color: #faa047; */
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px; 
+}
+
+
+.engagement_add{
+    position: absolute;
+    top:71rem;
+    left:50rem;
+    width: 15rem;
+    height: 3rem;
+    cursor: pointer;
+    text-transform: uppercase;
+   font-size: 22px;
+    border-radius: 6rem;
+  
+   
+}
+.engagement_add:hover {
+    /* background-color: #a2b6f1; */
+  }
+
+.engagement_fill_entry{
+    position: relative;
+
+    top:0rem;
+    left:17rem;
+    width: 20rem;
+    height: 2rem;
+    border-radius: 4px;
+   cursor: pointer;
+   padding-left: 6px;
+ border:solid  rgb(237, 198, 198);
+   /* background-color: rgb(145, 161, 167); */
+    
+}
+.engagement_entery{
+    display:block;
+    position: relative;
+    top:2rem;
+    /* color: rgb(175, 255, 140); */
+    left:5rem;
+    width: 20rem;
+    height: 2rem;
+    font-family: cursive;
+    font-size: 20px;
+
+}
+.bridegroom{
+    position: absolute;
+   top:11rem;
+
+   left: 2rem;
+   /* background-color: rgba(76, 110, 111, 0.99); */
+}
+
+.bride{
+    position: absolute;
+   
+  
+    top:11rem;
+    left: 40rem;
+    /* background-color: #5d688c;  */
+}
+.bride_entery{
+    position: relative;
+    display:block;
+    top:2rem;
+    
+    /* color: rgb(175, 255, 140); */
+    left:5rem;
+    width: 20rem;
+    height: 2rem;
+    font-family: cursive;
+    font-size: 20px;
+}
+.bride_fill_entry{
+    position: relative;
+
+    top:0rem;
+    left:17rem;
+    width: 20rem;
+    height: 2rem;
+    border-radius: 4px;
+   cursor: pointer;
+   padding-left: 6px;
+   border:solid  rgb(237, 198, 198);
+   /* background-color: rgb(145, 161, 167); */
+}
+/* .Bride_head{
+    position: relative;
+    top:1rem;
+    left: 1rem;
+    color: #e2c058;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px; 
+} */
+.bride_formfill{
+    position: relative;
+    top:0rem;
+    /* width: 98vh; */
+   height: 4.5rem;
+border-radius: 4px;
+    left: 0rem;
+    /* background-color: rgba(59, 73, 97, 0.99); */
+}
+.Engagement_other_details{
+    position: absolute;
+   top:52rem;
+    left: 0rem;
+}
+.engagement_other_formfill{
+    position: relative;
+    top:2rem;
+    width: 65rem;
+   height: 3.5rem;
+border-radius: 4px;
+    left: 3rem;
+    /* background-color: rgba(59, 73, 97, 0.99); */
+}
+.engagement_other_entery{
+    position: relative;
+    display:block;
+    top:1rem;
+    /* color: rgb(175, 255, 140); */
+    left:5rem;
+    width: 20rem;
+    height: 1rem;
+   
+    font-family: cursive;
+    font-size: 20px;
+}
+.engagement_other_fill_entry{
+    position: relative;
+
+    top:0rem;
+    left:19rem;
+    width: 40rem;
+    height:2rem;
+    border-radius: 4px;
+   cursor: pointer;
+   padding-left: 6px;
+   border:solid  rgb(237, 198, 198);
+   /* background-color: rgb(145, 161, 167); */
+}
+.Engagement_other_heading{
+    position: relative;
+    top:1rem;
+    left: 1rem;
+    /* color: #faa047; */
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px; 
+}

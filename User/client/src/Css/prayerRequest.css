@@ -1,0 +1,195 @@
+/* .prayer-container {
+  position: relative;
+  width: 98vw;
+  height: 50vh;
+} */
+
+.prayer-boxes{
+   position: absolute;
+   border: 0.2rem solid rgb(255, 254, 254);
+   top: 10rem;
+   left: 0rem;
+   width: 55rem;
+   height: 41rem;
+   background-color: white;
+}
+
+/* heading */
+.prayer-heading{
+  position: absolute;
+  font-family: Akshar;
+  font-size: 3rem;
+  font-weight: bold;
+  top: 0rem;
+  left: 13rem;
+}
+
+/* labels */
+.prayer-label_name{
+  position: absolute;
+  font-family: Akshar;
+  font-size: 1.3rem;
+  font-weight: bold;
+  top: 10rem;
+  left: 10rem;
+}
+
+
+.prayer-label_for{
+  position: absolute;
+  font-family: Akshar;
+  font-size: 1.3rem;
+  font-weight: bold;
+  top: 15rem;
+  left: 10rem;
+}
+
+.prayer-label_email{
+  position: absolute;
+  font-family: Akshar;
+  font-size: 1.3rem;
+  font-weight: bold;
+  top: 20rem;
+  left: 10rem;
+}
+
+.prayer-label_phono{
+  position: absolute;
+  font-family: Akshar;
+  font-size: 1.3rem;
+  font-weight: bold;
+  top: 25rem;
+  left: 10rem;
+}
+
+.prayer-label_multiline_text{
+  position: absolute;
+  font-family: Akshar;
+  font-size: 1.3rem;
+  font-weight: bold;
+  top: 30rem;
+  left: 10rem;
+}
+
+/* textboxes */
+.prayer-Your_Name{
+  position: absolute;
+  font-family: Akshar;
+  font-size: 1rem;
+  top: 9rem;
+  left: 27rem;
+  height: 3rem;
+  width: 18rem;
+  border-radius: 0.5rem;
+  border: 1px solid black;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.prayer-For{
+  position: absolute;
+  font-family: Akshar;
+  font-size: 1rem;
+  top: 14rem;
+  left: 27rem;
+  height: 3rem;
+  width: 18rem;
+  padding: 5px;
+  border-radius: 0.5rem;
+  border: 1px solid black;
+  font-weight: bold;
+}
+
+.prayer-email{
+  position: absolute;
+  font-family: Akshar;
+  font-size: 1rem;
+  top: 19rem;
+  left: 27rem;
+  padding: 5px;
+  height: 3rem;
+  width: 18rem;
+  border-radius: 0.5rem;
+  border: 1px solid black;
+  font-weight: bold;
+}
+
+.prayer-phone_no{
+  position: absolute;
+  font-family: Akshar;
+  font-size: 1rem;
+  top: 24rem;
+  left: 27rem;
+  height: 3rem;
+  padding: 5px;
+  width: 18rem;
+  border-radius: 0.5rem;
+  border: 1px solid black;
+  font-weight: bold;
+}
+
+.prayer-subject {
+  position: absolute;
+  font-family: Akshar;
+  font-size: 1rem;
+  top: 29rem;
+  left: 27rem;
+  height: 4rem;
+  padding: 5px;
+  border-radius: 0.5rem;
+  border: 1px solid black;
+  font-weight: bold;
+  transition: border-color 0.3s;
+  z-index: 3;
+  width: 18rem; /* Set the same width as other textboxes */
+  resize: none;
+}
+
+/* button */
+.prayer-submit{
+  position: absolute;
+  top: 35rem;
+  left: 21rem;
+  border-radius: 0.5rem;
+  height: 3rem;
+  width: 13rem;
+  font-family: Akshar;
+  font-weight: bold;
+  font-size: 1rem;
+  border-color: black;
+}
+
+
+
+.prayer-image {
+ position: absolute;
+ background-image: url('../Img/prayer.jpg');
+ top: 4rem;
+ left: 50rem;
+ width: 47rem;
+ height: 43rem;
+ background-size: cover;
+ z-index: 1;
+}
+
+.success-msg,
+.error-msg {
+ position: absolute;
+ top: 5rem;
+ left: 50%;
+ transform: translateX(-50%);
+ font-family: Akshar;
+ font-size: 1rem;
+ font-weight: bold;
+ padding: 0.5rem 1rem;
+ border-radius: 0.5rem;
+ color: #fff;
+}
+
+.success-msg {
+ background-color: #4caf50;
+}
+
+.error-msg {
+ background-color: #f44336;
+}

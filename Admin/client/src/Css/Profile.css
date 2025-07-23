@@ -1,0 +1,73 @@
+.PROFILE-container{
+    position: relative;
+}
+
+.profile-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20rem;
+    font-family: Akshar;
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+.profile-info > .form-group{
+    margin-top: 5rem;
+}
+
+.profile-info > .form-group > .form-control{
+    font-family: Akshar;
+    padding: 0.5rem;
+    width: 20rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    margin-left: 8rem;
+    align-items: left;
+}
+
+.profile-info > .form-group > .form-control2{
+    font-family: Akshar;
+    padding: 0.5rem;
+    width: 20rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    margin-left: 9rem;
+    align-items: left;
+}
+
+.Sign_uploader,
+.Seal_uploader{
+    font-family: Akshar;
+    padding: 0.5rem;
+    width: 20rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    margin-left: 4rem;
+    align-items: left;
+}
+
+.photo-item
+{
+    width: 20rem;
+    height: 10rem;
+    border-radius: 0.5rem;
+    margin-left: 18rem;
+    margin-top: -8rem;
+}
+
+.photo-item1{
+    width: 20rem;
+    height: 10rem;
+    border-radius: 0.5rem;
+    margin-left: 18rem;
+    margin-top: 1rem;
+}
+
+.prof-save-btn{
+    width: 8rem;
+    background-color: blue;
+    height: 2rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}

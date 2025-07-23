@@ -1,0 +1,63 @@
+.edit_baptism_container{
+    position: absolute;
+    top:5rem;
+    width: 60%;
+    height: 160%;
+    /* background-color: rgb(57, 112, 94); */
+    }
+    .editheading{
+        position: absolute;
+        left: 8rem;
+        font-size: 27px;
+        /* color: rgb(107, 107, 180); */
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .edit_details{
+        position: relative;
+        top:2rem;
+        /* gap:7rem; */
+        /* color: rgb(255, 234, 48); */
+        /* color:black; */
+        left:5rem;
+        width: 20rem;
+        height: 2rem;
+        font-family: cursive;
+        font-size: 20px;  
+    }
+    .edit_record{
+        position: relative;
+        top:11rem;
+        left: 0rem;
+    }
+    .edit_data_set{
+        position: relative;
+        display: block;
+          top:0rem;
+          left:21rem;
+          width: 20rem;
+          height: 1.5rem;
+          border-radius: 4px;
+         cursor: pointer;
+         padding-left: 6px;
+         border:solid  rgb(218, 197, 197);
+         /* background-color: rgb(188, 206, 212); */
+    }
+    .edit_update{
+        position: absolute;
+        top:67rem;
+        left:45rem;
+        width: 15rem;
+        height: 3rem;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-size: 22px;
+        border-radius: 6rem;
+        /* background-color: rgb(193, 197, 216); */
+    }
+    .edit_msg{
+        position: absolute;
+        top:60rem;
+        left: 45rem;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }

@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.09e4abe3.css",
+    "main.js": "/static/js/main.1ca8dfa4.js",
+    "static/js/496.5168177a.chunk.js": "/static/js/496.5168177a.chunk.js",
+    "static/media/About_Us-Church_Image.png": "/static/media/About_Us-Church_Image.f7867c22d88ff7370d38.png",
+    "static/media/Reset_password.png": "/static/media/Reset_password.38e9f46187ac1628b10c.png",
+    "static/media/prayer.jpg": "/static/media/prayer.2ab229eda5ade59e5881.jpg",
+    "static/media/Enter OTP-amico.png": "/static/media/Enter OTP-amico.27c9d408de29f9088b00.png",
+    "static/media/verification_img.png": "/static/media/verification_img.67a82ed950c30bb6bf0f.png",
+    "static/media/404 Error.png": "/static/media/404 Error.34b6e7e8dac678c6ac20.png",
+    "static/media/403 Error.png": "/static/media/403 Error.8ee177e0872baa2c180b.png",
+    "static/media/Contact_Us.jpeg.jpg": "/static/media/Contact_Us.jpeg.89ebb547cab245c97299.jpg",
+    "static/media/About_Us-Head-priest_image.jpeg.jpg": "/static/media/About_Us-Head-priest_image.jpeg.2a9b72db8f32e186980c.jpg",
+    "static/media/logo.png": "/static/media/logo.b0b4035dbac28a922ec7.png",
+    "static/media/priest.png": "/static/media/priest.a6f62731883e9dac10f3.png",
+    "static/media/Ministry.jpg": "/static/media/Ministry.92d370049aca14fb3d5c.jpg",
+    "static/media/About_Us-Assist-priest_image.jpeg.jpg": "/static/media/About_Us-Assist-priest_image.jpeg.43bdf41d35c4cc2599c9.jpg",
+    "static/media/login.png": "/static/media/login.c9fc67c69879055c865b.png",
+    "static/media/intro.png": "/static/media/intro.86ae2951a5818fb8917d.png",
+    "static/media/user_Img.png": "/static/media/user_Img.f83de9b5a5dcaf2a58fa.png",
+    "static/media/Contact-Call.png": "/static/media/Contact-Call.b33aa65573562777190e.png",
+    "static/media/contact.png": "/static/media/contact.d7087c41e32f864f5a25.png",
+    "static/media/Contact-Map.png": "/static/media/Contact-Map.0e41858db80c699cd8a2.png",
+    "static/media/Gallery.png": "/static/media/Gallery.40f7fb40cc4372239ff2.png",
+    "static/media/Contact-FB.png": "/static/media/Contact-FB.bfd1cfff9f9521198b26.png",
+    "index.html": "/index.html",
+    "main.09e4abe3.css.map": "/static/css/main.09e4abe3.css.map",
+    "main.1ca8dfa4.js.map": "/static/js/main.1ca8dfa4.js.map",
+    "496.5168177a.chunk.js.map": "/static/js/496.5168177a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09e4abe3.css",
+    "static/js/main.1ca8dfa4.js"
+  ]
+}

@@ -1,0 +1,140 @@
+.person-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 60px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+  }
+  
+  .loading {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  .no-results {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  .form-group-container {
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .family-details {
+    font-size: 24px;
+    color:rgb(79, 79, 233);
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .house-name,
+  .address,
+  .house-pincode {
+    margin-top: 10px;
+    font-size: 16px;
+    color:rgb(79, 79, 233);
+  }
+  
+  .father-details,
+  .mother-details,
+  .children-details,
+  .wife-details {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    color:rgb(79, 79, 233);
+    margin-bottom: 10px;
+  }
+  
+  .edit-link {
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 14px;
+    text-decoration: none;
+    color: #333;
+    background-color: #11cfd2;
+    padding: 4px 8px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-link:hover {
+    background-color: #eaeaea;
+  }
+  
+  .add-child-link{
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 14px;
+    text-decoration: none;
+    color: #333;
+    background-color: #e28bf8;
+    padding: 4px 8px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+
+  .add-child-link:hover {
+    background-color: #eaeaea;
+  }
+  
+  .father-name,
+  .mother-name,
+  .child-name,
+  .child-wife-name {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color:rgb(79, 79, 233);
+  }
+  
+  .baptism-name,
+  .dob,
+  .age,
+  .phone-number,
+  .email,
+  .status,
+  .situation {
+    margin-top: 5px;
+    font-size: 14px;
+    color:rgb(79, 79, 233);
+  }
+  
+  .children-list {
+    margin-top: 10px;
+    list-style-type: none;
+    padding: 0;
+    color:rgb(79, 79, 233);
+  }
+  
+  .child-item {
+    margin-bottom: 20px;
+  }
+  
+  /* print button */
+  .logo {
+    display: none;
+  }
+  
+ 
+  @media print {
+    .logo {
+      display: block;
+      text-align: center;
+      margin-bottom: 40px;
+      
+    }
+  
+    .print-button {
+      display: none;
+      margin-left: 1rem;
+      height: 2rem;
+      width: 5rem;
+    }
+  }

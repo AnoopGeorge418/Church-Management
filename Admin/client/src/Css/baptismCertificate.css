@@ -1,0 +1,236 @@
+.baptism_certificate_box{
+  position: relative;
+ width: 100%;
+ min-height: 240vh;
+ overflow: hidden;
+ z-index: 1; 
+ color: #111112;
+ /* background-color: pink; */
+}
+.baptismcertifiace_container{
+  position: absolute;
+  left: 0rem;
+  top:0rem;
+  width: 100%;
+border-color: rgb(255, 255, 255);
+border: 1rem solid;
+height: 102%;
+color: #111112;
+background-color: white;
+}
+
+.baptism_card{
+  position: absolute;
+ border: rgb(219, 30, 30);
+  /* background-color: rgb(255, 255, 255); */
+  color: #111112;
+width: 100%;
+  height: 98%;
+  left:0rem;
+  top:0rem;
+}
+.print__button{
+  position: absolute;
+  top:106rem;
+  left:60rem;
+  width: 15rem;
+  height: 3rem;
+  font-size: 20px;
+  border-radius:5px;
+  cursor: pointer;
+  color: #0c0c0c;
+  text-transform: uppercase;
+  background-color: rgb(227, 211, 214);
+}
+.baptism_certificate_data{
+  position: relative;
+  display: block;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+ 
+ border-bottom: dotted;
+left:19rem;
+text-transform: uppercase;
+padding-inline-start: 1rem;
+top:0rem;
+padding-right: 13px;
+font-size: 25px;
+  width:45rem;
+  color: #111112;
+  background-color: rgb(255, 255, 255);
+}
+.baptism_certificate_details{
+  position: relative;
+ top:2rem;
+ left: 3rem;
+ font-size: 26px;
+ color: #111112;
+ font-style: italic;
+ font-family:'Times New Roman';
+
+}
+.baptism_cert_heading{
+  position: relative;
+  top: 0rem;
+  left: 15rem;
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.baptism_cert_bapt{
+  position: relative;
+  top: 0rem;
+  left: 23rem;
+  font-size: 35px;
+  font-family: 'Times New Roman', Times, serif; 
+}
+.detalis{
+  position: absolute;
+  display: inline;
+  left:18rem;
+
+  font-size: 25px;
+
+}
+.baptism_overall{
+  position: relative;
+  left:6rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  font-style: italic;
+  top:1rem; 
+}
+.baptism_seal{
+  position: relative;
+  top: 10rem;
+  left:14.5rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  font-style: italic;
+
+}
+.baptism_sign{
+  position: relative;
+  top: 6rem;
+  left:38rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  font-style: italic;
+bottom: 9rem;    
+}
+.baptismseal{
+  position: relative;
+  color: #4b77d0;
+  top:10rem;
+  left:11rem;
+  height: 8rem;
+}
+.priest_sign{
+  position: relative;
+bottom: 12rem;
+  left:40rem;
+  color: #4b77d0;
+  width: 25rem;
+height:70px;
+}
+.baptism_box_to_move{
+  position: relative;
+  left: 4rem;
+
+}
+/* Add this rule to control the print layout */
+@media print {
+  body {
+    zoom: 75%; /* You can adjust the zoom level for the print layout */
+  }
+  .print__button {
+    display: none; /* Hide the print button on the printed page */
+  }
+}
+
+
+.signuploadforcertify{
+  position: absolute;
+  width: 8rem;
+  height: 8rem;
+  margin-top: -2rem;
+  margin-left: 12rem;
+}
+
+/* popup.css */
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 400px;
+}
+
+.modal-heading {
+  margin-bottom: 10px;
+}
+
+.modal-input {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.modal-button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  background: #007bff;
+  color: #fff6f6;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.modal-button.cancel-btn {
+  background: #f00;
+}
+
+
+.sealuploadforbapcertify{
+  position: absolute;
+  width: 8rem;
+  height: 8rem;
+  margin-top: -2rem;
+  margin-left: 43rem;
+}
+
+.print__button_savebap{
+  position: absolute;
+  top:106rem;
+  left:2rem;
+  width: 15rem;
+  height: 3rem;
+  border-radius:5px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.modal-heading{
+  color:black;
+  font-family:Akshar;
+  
+}
+
+.modal-input{
+  font-family:Akshar;
+  width:20rem;
+  height: 2rem;
+  border-radius:0.5rem;
+  font-size: 1.5rem
+}

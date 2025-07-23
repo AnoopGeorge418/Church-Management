@@ -1,0 +1,286 @@
+.death-Container{
+    position: relative;
+    /* width: 100%; */
+    /* min-height: 80rem; */
+    /* background-color: rgb(255, 255, 255); */
+    /* overflow: hidden;
+    z-index: 1; */
+}
+
+.death-box{
+  
+ position: relative;
+    border: 1rem solid;
+    border-radius: 0.2rem;
+    width: 97%;
+    border-color: black;
+    min-height: 68.7rem;
+    margin-top: 0rem;
+    /* margin-left: 22rem; */
+    background-color: rgb(255, 255, 255);
+}
+
+.death-heading{
+    position: relative;
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+   font-style: italic;
+    margin-left: 10rem;
+    margin-top: 2rem;
+    color: black;
+    /* text-decoration: underline; */
+}
+
+.death-sub{
+
+    font-family: Akshar;
+    font-size: 1.5rem;
+    margin-left:6rem;
+    margin-top: 1rem;
+    color: black;
+}
+.death-sub2{
+    font-family: Akshar;
+    font-size: 1.5rem;
+    margin-left:9rem;
+    margin-top: 1rem;
+    color: black;
+}
+.death-sub3{
+    position: absolute;
+    font-family: Akshar;
+    font-size: 1.5rem;
+    margin-left:22.5rem;
+ top: 26.2rem;
+ color: black;
+}
+.death-sub4{
+    position: absolute;
+    font-family: Akshar;
+    font-size: 1.5rem;
+    margin-left:15rem;
+ top: 30rem;
+ color: black;
+}
+.death_sub5{
+    position: absolute;
+    font-family: Akshar;
+    font-size: 1.5rem;
+    margin-left:3rem;
+ top: 35rem;
+ left: 5rem;
+ color: black;
+}
+.death_sub6{
+    position: absolute;
+    font-family: Akshar;
+    font-size: 1.5rem;
+    margin-left:10rem;
+ top: 38.5rem;
+ color: black;
+}
+.death_sub7{
+    position: absolute;
+    font-family: Akshar;
+    font-size: 1.5rem;
+    margin-left:2rem;
+ top: 44.5rem;
+ left: 5rem;
+ color: black;
+}
+.death_sub8{
+    position: absolute;
+    font-family: Akshar;
+    font-size: 1.5rem;
+    margin-left:38.5rem;
+ top: 44.5rem;
+ left: 3rem;
+ color: black;
+}
+.death_sub9{
+    position: absolute;
+    font-family: Akshar;
+    font-size: 1.5rem;
+    margin-left:17rem;
+ top: 48.5rem;
+ color: black;
+}
+.death_seal{
+    position: absolute;
+    font-family: Akshar;
+    font-size: 1.5rem;
+    margin-left:12rem;
+ top: 62.5rem;
+ color: black;
+}
+.death_sign{
+    position: absolute;
+    font-family: Akshar;
+    font-size: 1.5rem;
+    margin-left:38rem;
+ top: 62.5rem;
+ color: black;
+}
+
+.death_input1{
+    position: relative;
+    display: block;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: line;
+    left:7rem;
+    top:1.5rem;
+    padding-right: 15px;
+    font-size: 20px;
+    width:15rem;
+    background: none;
+    text-align: center;
+    font-family: Akshar;
+    text-transform: uppercase;
+    /* font-style: italic; */
+    font-size: 25px;
+}
+.death_baptismname{
+    position: absolute;
+    display: block;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: line;
+    left:32rem;
+    top:25.7rem;
+    background: none;
+    padding-right: 15px;
+    font-size: 20px;
+    width:15rem;
+    text-align: center;
+    font-family: Akshar;
+    text-transform: uppercase;
+    /* font-style: italic; */
+    font-size: 25px;
+}
+.death_housename{
+    position: absolute;
+    display: block;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: line;
+    left:23rem;
+    top:29.5rem;
+    padding-right: 15px;
+    font-size: 20px;
+    width:18rem;
+    background: none;
+    text-align: center;
+    font-family: Akshar;
+    text-transform: uppercase;
+    /* font-style: italic; */
+    font-size: 25px;
+}
+
+.death_date{
+    position: absolute;
+    display: block;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: line;
+    left:30rem;
+    top:34.7rem;
+    padding-right: 15px;
+    font-size: 20px;
+    width:15rem;
+    background: none;
+    text-align: center;
+    font-family: Akshar;
+    text-transform: uppercase;
+    /* font-style: italic; */
+    font-size: 25px;
+}
+.death_reason{
+    position: absolute;
+    display: block;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: line;
+    left:20rem;
+    top:38rem;
+    padding-right: 15px;
+    font-size: 20px;
+    width:25rem;
+    background: none;
+    text-align: center;
+    font-family: Akshar;
+    text-transform: uppercase;
+    /* font-style: italic; */
+    font-size: 25px;
+}
+.death_church{
+    position: absolute;
+    display: block;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: line;
+    left:21rem;
+    top:44.3rem;
+    padding-right: 15px;
+    font-size: 20px;
+    width:20rem;
+    background: none;
+    text-align: center;
+    font-family: Akshar;
+    text-transform: uppercase;
+    /* font-style: italic; */
+    font-size: 25px;
+}
+
+.death_burial{
+    position: absolute;
+    display: block;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: line;
+    left:25rem;
+    top:48.3rem;
+    padding-right: 15px;
+    font-size: 20px;
+    width:15rem;
+    background: none;
+    text-align: center;
+    font-family: Akshar;
+    text-transform: uppercase;
+    /* font-style: italic; */
+    font-size: 25px;
+}
+
+.death-image {
+    /* position: absolute; */
+    background-image: url('../Images/Cross.png');
+    width: 10rem;
+    height: 10rem;
+    margin: 0 auto; 
+    margin-top: 1rem; 
+    z-index: -1;
+    background-size: cover;
+
+}
+.death_co_position{
+ width: 120vh;
+
+position: relative;
+    left: 20rem;
+    /* background-color: aqua; */
+}
+
+.printfor__button{
+    position: relative;
+    top: 3rem;
+    left: 20rem;
+    height: 2rem;
+    width: 5rem;
+}

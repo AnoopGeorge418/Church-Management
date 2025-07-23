@@ -1,0 +1,70 @@
+/* Container */
+.family_edit-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    /* background-color: #f5f5f5; */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title */
+  .family_edit-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Success and Error Messages */
+  .family_edit-success,
+  .family_edit-error {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .family_edit-success {
+    /* background-color: #c1e6c1;
+    color: #207020; */
+  }
+  
+  .family_edit-error {
+    /* background-color: #e6c1c1;
+    color: #702020; */
+  }
+  
+  /* Labels */
+  .family_edit-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  /* Inputs */
+  .family_edit-input,
+  .family_edit-select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    /* border: 1px solid #ccc; */
+    border-radius: 3px;
+  }
+  
+  /* Final Submit Button */
+  .family_edit-finalsubmit {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #207020;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .family_edit-finalsubmit:hover {
+    background-color: #105010;
+  }
+  

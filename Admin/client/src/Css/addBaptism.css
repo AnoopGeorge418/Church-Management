@@ -1,0 +1,119 @@
+.Baptism{
+  position: absolute;
+  /* background-color: rgba(229, 233, 242, 0.99); */
+  /* background-color: #3f4777; */
+  /* background-color: #3e4674; */
+  width: 70vw;
+  height: 160%;
+}
+.Baptism_heading{
+  position: absolute;
+  top:4rem;
+  left: 10rem;
+  /* color: #e1eb9f; */
+
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 27px;
+}
+.Baptism_recorddata{
+  
+  position: relative;
+  top:11rem;
+  left: 0rem;
+  /* background-color: rgba(58, 83, 133, 0.99); */
+}
+.Baptism_add{
+  position: absolute;
+  top:67rem;
+  left:45rem;
+  width: 15rem;
+  height: 3rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 22px;
+  border-radius: 6rem;
+  /* background-color: rgb(193, 197, 216); */
+}
+.Baptism_add:hover {
+  /* background-color: #a2b6f1; */
+}
+
+.baptism_record_entery{
+  position: relative;
+display: block;
+  top:0rem;
+  left:21rem;
+  width: 20rem;
+  height: 1.5rem;
+  font-size: 15px;
+  border-radius: 4px;
+ cursor: pointer;
+ padding-left: 6px;
+ border:solid  rgb(218, 197, 197);
+ /* background-color: rgb(188, 206, 212); */
+}
+
+.baptism_record{
+ 
+  position: relative;
+  top:2rem;
+  /* gap:7rem; */
+  /* color: rgb(255, 234, 48); */
+  /* color:black; */
+  left:5rem;
+  width: 20rem;
+  height: 2rem;
+  font-family: cursive;
+  font-size: 20px;
+
+}
+
+/* .baptism_image {
+  position: absolute;
+  background: purple;
+  top: 6rem;
+  left: 50rem;
+  width: 40rem;
+  height: 35rem;
+  background-size: cover;
+} */
+
+/* Style for custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  /* background-color: #f5f5f5; */
+}
+
+::-webkit-scrollbar-thumb {
+  /* background-color: #8f8e8e; */
+  border-radius: 5px;
+}
+
+/* Animation for scrollbar */
+@keyframes scrollAnimation {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.scroll-animation {
+  animation: scrollAnimation 1s linear infinite;
+}
+.baptism_success_msg{
+  position: absolute;
+  top:50rem;
+  left:45rem;
+  font-family: cursive;
+  /* color:rgb(255, 125, 4); */
+}
+.Baptism_error_msg{
+  position: absolute;
+  top:50rem;
+  left:45rem;
+  font-family: cursive;
+  /* color:rgb(255, 125, 4); */
+  font-size: 18px;
+  }

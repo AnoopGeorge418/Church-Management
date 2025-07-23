@@ -1,0 +1,101 @@
+
+.Register_container{
+    position: absolute;
+    display:flex;
+    width: 215vh;
+    height: 100%; 
+   background-color: rgb(146, 217, 247);
+}
+
+/* /* .all_inputbox{
+    position: absolute;
+   top:2.5rem;  
+} */
+.Re_name{
+    position: absolute;
+    top:15rem;
+    left:45rem;
+}
+.name_box{
+    position: absolute;
+    top:17rem;
+    left:45rem;
+    width: 15rem;
+    height: 20px; 
+    /* border:none;
+    border-bottom: dotted;
+    outline: none;
+    background-color: rgb(146, 217, 247); */
+    border-radius: 5px; 
+    padding: 10px;
+}
+
+
+.Re_email{
+    position: absolute;
+    top:20rem;
+    left:45rem;
+}
+.email_box{
+    position: absolute;
+    top:22rem;
+    left:45rem;
+     width: 15rem;
+    height: 20px; 
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.Re_password{
+    position: absolute;
+    top:25rem;
+    left:45rem;
+}
+.password_box{
+    position: absolute;
+    top:27rem;
+    left:45rem;
+    width: 15rem;
+    height: 20px; 
+    border-radius: 5px;
+    padding: 10px;
+}
+.Re_Cpassword
+{
+    position: absolute;
+    top:30rem;
+    left:45rem;  } 
+
+.confirmpassword_box{
+position: absolute;
+    top:32rem;
+    left:45rem;
+    width: 15rem;
+    height: 20px; 
+    border-radius: 5px;
+    padding: 10px;
+}
+.admin_submit{
+    position: absolute;
+    top:36rem;
+    left:45.5rem;
+    width: 15rem;
+    height:3rem;
+    border-radius: 50px;
+    font-weight: 800;
+    font-size: 16px;
+    text-transform: uppercase;
+    box-sizing: border-box;
+   cursor:pointer;
+    background-color: rgb(221, 226, 232);
+}
+.admin_submit:hover{
+    box-shadow: 0 0 10px 0 #0b47ea inset, 0 0 20px 2px #80aafe;
+     border: 3px solid rgb(120, 152, 255)
+  }
+  .Key_rafiki{
+    position: absolute;
+    top:3rem;
+  }
+  

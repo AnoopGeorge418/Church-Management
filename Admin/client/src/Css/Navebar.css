@@ -1,0 +1,217 @@
+:root {
+  --primaryColor: #476a2e;
+  --mainWhite: #f12b2b;
+  --mainBackground: #f1f5f8;
+  --mainBlack: #222;
+  --mainGrey: #ececec;
+  --darkGrey:rgb(226, 226, 53);
+  --mainTransition: all 0.3s linear;
+  --mainSpacing: 0.3rem;
+  --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+  --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  --mainBorderRadius: 0.25rem;
+  --smallWidth: 85vw;
+}
+
+  .navbar {
+    background:  rgb(9, 39, 90);
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid var(--primaryColor);
+    box-shadow: var(--lightShadow);
+    direction: rtl;
+    position: fixed;
+    padding-right: 4.4rem;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1; 
+  }
+  
+  .nav-center {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1170px;
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    direction: left;
+    list-style: none;
+    position: fixed;
+  }
+  
+  .nav-links a {
+    text-transform: capitalize;
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 0.5rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    padding: 0.25rem 0.5rem;
+    transition: var(--mainTransition);
+    cursor: pointer;
+  }
+  
+  .nav-links a:hover {
+    color: var(--darkGrey);
+  }
+  
+  .nav_logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 80rem; /* push the logo to the left */
+  }
+  
+  .logo {
+    height: 4.4rem;
+    width: auto;
+    margin-right: 4rem; /* add some spacing */
+  }
+  .profile-image{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 1rem;
+  }
+  .rounded {
+    height: 3.4rem;
+    width: 3.4rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 0.1rem;
+    border: 2px solid black;
+  }
+  
+  .textcolor {
+    color: rgb(231, 246, 26);
+    font-family: 'Akshar';
+    text-decoration: none;
+    outline: none;
+  }
+  
+  .on {
+    color: rgb(226, 226, 53);
+    font-family: 'Akshar';
+    text-decoration: none;
+  }
+  
+  .nav_button {
+    background-color: transparent;
+    border: 3px solid #00d7c3;
+    border-radius: 50px;
+    transition: all 0.15s ease-in-out;
+    color: rgb(231, 246, 26);
+    font-size: 1.3rem;
+    padding: 0.75rem 2.5rem;
+  }
+  
+  /* .nav_button:hover {
+    box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
+    border: 3px solid #00d
+  } */
+  .nav_button:hover {
+    box-shadow: 0 0 10px 0 #e3efbc inset, 0 0 20px 2px #d1e8e6;
+    border: 3px solid rgb(207, 232, 156)
+  }
+
+  
+  .nav-links li:hover .subnav {
+    display: block;
+  
+  }
+
+  .subnav {
+    display: none;
+    position: absolute;
+    top: 1.5rem;
+    right: 40rem;
+    text-align: left;
+    padding: 10px;
+    width: 16rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    text-transform: capitalize;
+    /* background: rgb(103, 103, 105); */
+    box-shadow: var(--lightShadow);
+    border-radius:15px ;
+    background-color: rgb(9, 39, 90);
+
+    
+  }
+  
+  .subnav-Announce {
+    display: none;
+    position: absolute;
+    top: 1.5rem;
+    left: 13rem;
+    text-align: left;
+    padding: 15px;
+    width: 17rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    text-transform: capitalize;
+    background-color: rgb(9, 39, 90);
+    box-shadow: var(--lightShadow);
+    border-radius:15px ;
+  }
+
+  /* .subnav-Announce{
+    color: var(--mainBlack);
+    padding: 0.5rem 0;
+  } */
+
+  .nav-links li:hover > ul {
+    display: block;
+  }
+
+  .navbar_flowcolor:hover{
+    position: relative;
+    background: #b955bb;
+    border-radius:5px ;
+   
+  }
+  
+.subnav_overview{
+  display: none;
+  position: absolute;
+  top: 1.5rem;
+  right: 50rem;
+  text-align: left;
+  padding: 15px;
+  width: 17rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 1rem;
+  text-transform: capitalize;
+  background-color: rgb(9, 39, 90);
+  box-shadow: var(--lightShadow);
+  border-radius:15px ;
+}
+.subnav_certificate{
+  display: none;
+  position: absolute;
+  top: 1.5rem;
+  right: 11rem;
+  text-align: left;
+  padding: 15px;
+  width: 14rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 1rem;
+  text-transform: capitalize;
+  background-color: rgb(9, 39, 90);
+  box-shadow: var(--lightShadow);
+  border-radius:15px ;
+}

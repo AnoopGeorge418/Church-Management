@@ -1,0 +1,153 @@
+.edit_marraige_container {
+  position: absolute;
+ top: 3rem;
+  /* width: 100%; */
+  height: 120%;
+  /* background-color: rgb(71, 96, 89); */
+}
+
+.edit_marr_heading {
+  position: absolute;
+  left: 27rem;
+  width: 30rem;
+  font-size: 27px;
+  /* color: rgb(6, 6, 52); */
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.Groom_heading_marra {
+  position: absolute;
+  top: 6rem;
+  left: 5rem;
+  font-size: 35px;
+  /* color: aquamarine; */
+  /* text-decoration: underline; */
+}
+
+.bride_heading_marriage {
+  position: relative;
+  top: 1rem;
+  left: 12rem;
+  font-size: 35px;
+  /* color: aquamarine; */
+  /* text-decoration: underline; */
+}
+
+.edit_marra {
+  position: relative;
+  top: 2rem;
+  /* color: rgb(255, 234, 48); */
+  left: 1rem;
+  /* width: 20rem; */
+  height: 2rem;
+  font-family: cursive;
+  font-size: 20px;
+}
+
+.edit_marraiage {
+  position: relative;
+  top: 11rem;
+  left: 2rem;
+}
+
+.edit_marraige_set {
+  position: relative;
+  display: block;
+  top: 0rem;
+  left: 13rem;
+  width: 20rem;
+  height: 2rem;
+  border-radius: 4px;
+  cursor: pointer;
+  padding-left: 6px;
+  border: solid rgb(218, 197, 197);
+  /* background-color: rgb(188, 206, 212); */
+}
+
+.edit_update_marr {
+  position: absolute;
+  top: 48.5rem;
+  left: 50rem;
+  width: 15rem;
+  height: 3rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 22px;
+  border-radius: 6rem;
+  /* background-color: rgb(193, 197, 216); */
+}
+
+.edit_msg {
+  position: absolute;
+  top: 60rem;
+  left: 45rem;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* .bride_heading_marriage {
+  position: absolute;
+  top: 6rem;
+  left: 5rem;
+  font-size: 25px;
+  /* color: aquamarine;
+  text-decoration: underline;
+} */
+
+.edit_marraiage_bride {
+  position: relative;
+  top: -1.5rem;
+  /* color: rgb(255, 234, 48); */
+  left: 10rem;
+  width: 20rem; 
+  height: 2rem;
+  font-family: cursive;
+  font-size: 20px;
+}
+
+.edit_marriage_bride {
+  position: relative;
+  display: block;
+  top: -2.8rem;
+  left: 24rem;
+  width: 20rem;
+  height: 2rem;
+  border-radius: 4px;
+  cursor: pointer;
+  padding-left: 6px;
+  border: solid rgb(218, 197, 197);
+  /* background-color: rgb(188, 206, 212); */
+}
+
+/* .bride_info_dta {
+  position: absolute;
+  top: 5rem;
+  left: 30rem;
+} */
+.bride_marraiage_dta{
+  position: absolute;
+  top:5rem;
+  left: 35rem;
+  width: none;
+ 
+}
+.edit_marraiage_other{
+  position: relative;
+  top:10rem;
+  left:0rem
+}
+.marriage_detalis_data{
+  position: absolute;
+  top:34rem;
+  font-size: 25px;
+  left: 5rem;
+
+}
+
+/* .edit_engages_bride{
+  margin-left: -3rem;
+}
+
+.edit_engages_other{
+  margin-left: -3rem;
+} */

@@ -1,0 +1,131 @@
+.search-bar-container {
+  display: fixed;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 9rem;
+}
+
+.search-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 300px;
+  margin-right: 10px;
+}
+  
+.search-button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.result-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.result-item {
+  margin-bottom: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.card-header {
+  margin-bottom: 10px;
+}
+
+.father-name {
+
+  font-weight: bold;
+}
+
+.mother-name {
+  font-weight: bold;
+}
+
+.children-list {
+  list-style-type: none;
+  padding-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.child-wife {
+  font-style: italic;
+}
+
+.card-footer {
+  text-align: right;
+}
+
+.details-link {
+  color: #4caf50;
+  text-decoration: none;
+}
+
+.no-results-message {
+  color: #f44336;
+}
+  
+  .loading-spinner {
+    width: 20px;
+    height: 20px;
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #007bff;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  .search-result {
+    margin-top: 10px;
+  }
+  
+  .search-result ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .search-result li {
+    margin-bottom: 5px;
+  }
+  
+  /* Animation Classes from animate.css */
+  .animate__animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+  
+  .animate__fadeInRight {
+    animation-name: fadeInRight;
+  }
+  
+  .animate__flash {
+    animation-name: flash;
+    animation-iteration-count: infinite;
+  }
+  
+  .animate__fadeIn {
+    animation-name: fadeIn;
+  }
+  
+  .animate__flash {
+    animation-name: animate__flash;
+  }
+  
+  /* Additional Styling */
+  /* Add any additional styling as per your requirements */
+  
