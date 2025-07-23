@@ -3,6 +3,7 @@ const User = require('../Database/adminRegisterandLogin');
 const nodemailer = require('nodemailer');
 const dotenv = require('dotenv');
 dotenv.config();
+
 const resetPassword = async (req, res) => {
   try {
     const { emailorPhoneNumber, newPassword } = req.body;

@@ -1,16 +1,16 @@
-import React, { useState } from "react";
-import { useNavigate} from 'react-router-dom'
-import { ToastContainer, toast } from "react-toastify";
 import axios from "axios";
+import { useState } from "react";
+import { useNavigate } from 'react-router-dom';
+import { ToastContainer, toast } from "react-toastify";
 
-import "../Css/Register_login.css";
 import {
-  faLock,
   faEnvelope,
   faEye,
   faEyeSlash,
+  faLock,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import "../Css/Register_login.css";
 
 
 
@@ -59,10 +59,10 @@ const Login = () => {
       if (response.status === 200) {
         toast.success(`User logged in successfully`, { autoClose: 10000 });
         // Redirect to otp page
-        history(`/OtpVerification?emailorPhoneNumber=${emailorPhoneNumber}`);
-
+        // history(`/OtpVerification?emailorPhoneNumber=${emailorPhoneNumber}`);
+        history('/adminLanding');
         return;
-      } 
+      }
     } catch (error) {
       console.error(error);
       if (error.response) {

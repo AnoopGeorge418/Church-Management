@@ -125,8 +125,8 @@
 
 
 
-import React, { useState ,useEffect} from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import '../Css/newRegister.css';
 
 function NewRegister() {
@@ -158,7 +158,7 @@ function NewRegister() {
       });
 
       if (response.ok) {
-        history(`/OtpVerification?emailorPhoneNumber=${email}`);
+        history('/adminLanding');
         setSuccessMsg('Logged in successfully!');
         setErrorMsg('');
       } else {

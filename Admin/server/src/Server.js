@@ -2,11 +2,13 @@ const http = require('http');
 const mongoose = require('mongoose');
 const app = require('./app.js');
 const server = http.createServer(app);
-
-
+const dotEnv = require("dotenv")
 
 // Connect to MongoDB server
-mongoose.connect('mongodb+srv://Church:1234@cluster0.pwsnslx.mongodb.net/test', {
+dotEnv.config();
+const linkToDB = process.env.CONNECTION_URL;
+
+mongoose.connect(linkToDB, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 }).then(() => {
