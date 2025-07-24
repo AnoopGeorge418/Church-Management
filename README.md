@@ -21,29 +21,11 @@ A comprehensive church management system designed to help religious organization
 - **Member Directory**: Searchable directory with filtering and sorting capabilities
 - **Attendance Tracking**: Record and track service attendance with statistical reporting
 
-### Financial Management
-- **Donation Tracking**: Record and categorize tithes, offerings, and special contributions
-- **Pledge Management**: Track member pledges and fulfillment status
-- **Financial Reporting**: Generate comprehensive financial reports and statements
-- **Payment Integration**: Support for multiple payment gateways
-
-### Event & Service Management
-- **Service Scheduling**: Plan and schedule regular services and special events
-- **Event Registration**: Allow members to register for events and activities
-- **Resource Booking**: Manage church facilities and equipment reservations
-- **Calendar Integration**: Unified calendar view for all church activities
-
 ### Communication Tools
-- **Messaging System**: Send announcements and messages to members or groups
 - **Email Integration**: Automated email notifications and newsletters
-- **SMS Notifications**: Text message alerts for important updates
-- **Bulletin Management**: Create and distribute digital church bulletins
 
 ### Administrative Features
 - **User Role Management**: Different access levels for pastors, administrators, and members
-- **Audit Trail**: Track all system changes and user activities
-- **Data Backup**: Automated backup and restore functionality
-- **Multi-branch Support**: Manage multiple church locations from one system
 
 ## 🚀 Installation
 
@@ -51,7 +33,6 @@ A comprehensive church management system designed to help religious organization
 
 - **Node.js** (v14 or higher)
 - **MongoDB** (v4.4 or higher)
-- **Redis** (v6 or higher)
 - **Git**
 
 ### Quick Start
@@ -112,19 +93,12 @@ A comprehensive church management system designed to help religious organization
    - Log in with admin credentials
    - Configure church information and settings
    - Set up user roles and permissions
-   - Import existing member data (if applicable)
 
 2. **Member Management**
    - Add new members through the Members section
    - Create family relationships
    - Update member information and status
    - Generate member reports
-
-3. **Financial Tracking**
-   - Record donations and offerings
-   - Generate financial reports
-   - Track pledges and commitments
-   - Export data for accounting software
 
 ### For Members
 
@@ -136,67 +110,6 @@ A comprehensive church management system designed to help religious organization
 
 2. **Online Giving**
    - Make donations online
-   - Set up recurring gifts
-   - View giving statements
-   - Update payment methods
-
-## ⚙️ Configuration
-
-### Database Configuration
-
-The system supports multiple database configurations:
-
-```javascript
-// config/database.js
-module.exports = {
-  development: {
-    uri: process.env.MONGODB_URI,
-    options: {
-      useNewUrlParser: true,
-      useUnifiedTopology: true
-    }
-  },
-  production: {
-    uri: process.env.MONGODB_URI,
-    options: {
-      ssl: true,
-      authSource: 'admin'
-    }
-  }
-};
-```
-
-### Email Configuration
-
-Configure email settings for notifications:
-
-```javascript
-// config/email.js
-module.exports = {
-  service: process.env.EMAIL_SERVICE,
-  auth: {
-    user: process.env.EMAIL_USER,
-    pass: process.env.EMAIL_PASS
-  },
-  templates: {
-    welcome: './templates/welcome.html',
-    reminder: './templates/reminder.html'
-  }
-};
-```
-
-### Security Settings
-
-```javascript
-// config/security.js
-module.exports = {
-  jwtSecret: process.env.JWT_SECRET,
-  jwtExpiry: '24h',
-  bcryptRounds: 12,
-  maxLoginAttempts: 5,
-  lockoutTime: 30 * 60 * 1000 // 30 minutes
-};
-```
 
 ## 📚 API Documentation
 
@@ -208,34 +121,6 @@ POST /api/auth/logout
 POST /api/auth/refresh-token
 POST /api/auth/forgot-password
 POST /api/auth/reset-password
-```
-
-### Member Management
-
-```http
-GET    /api/members          # Get all members
-POST   /api/members          # Create new member
-GET    /api/members/:id      # Get member by ID
-PUT    /api/members/:id      # Update member
-DELETE /api/members/:id      # Delete member
-```
-
-### Financial Management
-
-```http
-GET    /api/donations        # Get all donations
-POST   /api/donations        # Record new donation
-GET    /api/donations/:id    # Get donation by ID
-GET    /api/reports/financial # Get financial reports
-```
-
-### Events
-
-```http
-GET    /api/events           # Get all events
-POST   /api/events           # Create new event
-GET    /api/events/:id       # Get event by ID
-POST   /api/events/:id/register # Register for event
 ```
 
 ## 🤝 Contributing
@@ -343,7 +228,6 @@ npm run test:integration
 
 **Email Not Sending**
 - Verify email credentials
-- Check firewall settings
 - Ensure less secure app access is enabled (for Gmail)
 
 **Performance Issues**
