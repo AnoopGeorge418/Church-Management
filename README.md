@@ -243,10 +243,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you need help or have questions:
 
-- **Documentation**: Check our [Wiki](https://github.com/AnoopGeorge418/Church-Management/wiki)
 - **Issues**: Report bugs on [GitHub Issues](https://github.com/AnoopGeorge418/Church-Management/issues)
-- **Discussions**: Join our [GitHub Discussions](https://github.com/AnoopGeorge418/Church-Management/discussions)
-- **Email**: Contact us at support@churchmanagement.com
+- **Email**: Contact us at anoopgeorge418@gmail.com
 
 ## 🙏 Acknowledgments
 
